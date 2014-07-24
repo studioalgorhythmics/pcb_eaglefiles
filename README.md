@@ -1,4 +1,4 @@
 pcb_eaglefiles
 ==============
 
-Some eagle files used..
+Some eagle files we are working on.
