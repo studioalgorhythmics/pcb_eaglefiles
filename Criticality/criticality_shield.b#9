@@ -849,7 +849,7 @@ design rules under a new name.</description>
 <element name="R9" library="SparkFun-Resistors" package="0603-RES" value="" x="53" y="55.5" rot="R90"/>
 <element name="R10" library="SparkFun-Resistors" package="0603-RES" value="" x="55.5" y="55.5" rot="R90"/>
 <element name="R11" library="SparkFun-Resistors" package="0603-RES" value="" x="58" y="55.5" rot="R90"/>
-<element name="R12" library="SparkFun-Resistors" package="0603-RES" value="" x="60.5" y="55.5" rot="R90"/>
+<element name="R12" library="SparkFun-Resistors" package="0603-RES" value="" x="60.5" y="55.5" rot="R270"/>
 <element name="R13" library="SparkFun-Resistors" package="0603-RES" value="" x="45" y="55.5" rot="R90"/>
 <element name="R14" library="SparkFun-Resistors" package="0603-RES" value="" x="42.5" y="55.5" rot="R90"/>
 <element name="ULN2" library="SparkFun-PowerIC" package="SO18L" value="" x="13" y="36.5" rot="R180"/>
@@ -1369,9 +1369,10 @@ design rules under a new name.</description>
 <signal name="N$37">
 <contactref element="R12" pad="2"/>
 <contactref element="ULN3" pad="8"/>
-<wire x1="60.5" y1="56.35" x2="60.5" y2="58" width="0.254" layer="1"/>
-<wire x1="59.255" y1="60.0978" x2="59.255" y2="59.245" width="0.254" layer="1"/>
-<wire x1="59.255" y1="59.245" x2="60.5" y2="58" width="0.254" layer="1"/>
+<wire x1="59.436" y1="55.7784" x2="60.3504" y2="54.864" width="0.254" layer="1"/>
+<wire x1="59.436" y1="59.8932" x2="59.436" y2="55.7784" width="0.254" layer="1"/>
+<wire x1="60.3504" y1="54.864" x2="60.5" y2="54.65" width="0.254" layer="1"/>
+<wire x1="59.436" y1="59.8932" x2="59.255" y2="60.0978" width="0.254" layer="1"/>
 </signal>
 <signal name="N$38">
 <contactref element="R11" pad="2"/>
@@ -1507,8 +1508,11 @@ design rules under a new name.</description>
 <signal name="N$32">
 <contactref element="R12" pad="1"/>
 <contactref element="D14-21" pad="8"/>
-<wire x1="60.5" y1="54.65" x2="60.39" y2="54.65" width="0.254" layer="1"/>
-<wire x1="60.39" y1="54.65" x2="60.39" y2="51.25" width="0.254" layer="1"/>
+<wire x1="61.4934" y1="55.3212" x2="60.579" y2="56.2356" width="0.254" layer="1"/>
+<wire x1="61.4934" y1="52.3494" x2="61.4934" y2="55.3212" width="0.254" layer="1"/>
+<wire x1="60.579" y1="51.435" x2="61.4934" y2="52.3494" width="0.254" layer="1"/>
+<wire x1="60.579" y1="56.2356" x2="60.5" y2="56.35" width="0.254" layer="1"/>
+<wire x1="60.579" y1="51.435" x2="60.39" y2="51.25" width="0.254" layer="1"/>
 </signal>
 <signal name="N$33">
 <contactref element="ULN3" pad="18"/>
