@@ -2901,8 +2901,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="R12" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603"/>
 <part name="R13" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603"/>
 <part name="R14" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603"/>
-<part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="SUPPLY17" library="supply2" deviceset="+5V" device=""/>
 <part name="ULN2" library="SparkFun-PowerIC" deviceset="ULN2803" device="SOICW"/>
 <part name="R15" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603"/>
 <part name="R16" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603"/>
@@ -3016,7 +3014,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <instances>
 <instance part="GND2" gate="1" x="-50.8" y="132.08"/>
 <instance part="D0-7" gate="1" x="-66.04" y="157.48" rot="R180"/>
-<instance part="GND1" gate="1" x="-48.26" y="73.66"/>
+<instance part="GND1" gate="1" x="-50.8" y="73.66"/>
 <instance part="D14-21" gate="1" x="30.48" y="167.64" rot="R180"/>
 <instance part="GND3" gate="1" x="53.34" y="132.08"/>
 <instance part="D22-36_EVEN" gate="1" x="30.48" y="111.76" rot="R180"/>
@@ -3028,7 +3026,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <instance part="SUPPLY1" gate="+5V" x="17.78" y="101.6" rot="R90"/>
 <instance part="SUPPLY2" gate="+5V" x="114.3" y="152.4"/>
 <instance part="SUPPLY5" gate="+5V" x="81.28" y="132.08" rot="R180"/>
-<instance part="SUPPLY6" gate="+5V" x="-15.24" y="73.66" rot="R180"/>
+<instance part="SUPPLY6" gate="+5V" x="-17.78" y="73.66" rot="R180"/>
 <instance part="SUPPLY7" gate="+5V" x="-12.7" y="132.08" rot="R180"/>
 <instance part="JP1" gate="A" x="-5.08" y="162.56"/>
 <instance part="JP3" gate="A" x="101.6" y="160.02"/>
@@ -3058,8 +3056,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <instance part="R12" gate="G$1" x="43.18" y="144.78"/>
 <instance part="R13" gate="G$1" x="43.18" y="175.26"/>
 <instance part="R14" gate="G$1" x="43.18" y="180.34"/>
-<instance part="GND9" gate="1" x="-48.26" y="73.66"/>
-<instance part="SUPPLY17" gate="+5V" x="-15.24" y="73.66" rot="R180"/>
 <instance part="ULN2" gate="G$1" x="-33.02" y="104.14"/>
 <instance part="R15" gate="G$1" x="-55.88" y="111.76"/>
 <instance part="R16" gate="G$1" x="-55.88" y="106.68"/>
@@ -3120,8 +3116,12 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <net name="GND" class="0">
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="-45.72" y1="76.2" x2="-48.26" y2="76.2" width="0.1524" layer="91"/>
-<junction x="-48.26" y="76.2"/>
+<wire x1="-50.8" y1="76.2" x2="-45.72" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="ULN2" gate="G$1" pin="9"/>
+<wire x1="-45.72" y1="81.28" x2="-45.72" y2="76.2" width="0.1524" layer="91"/>
+<junction x="-45.72" y="81.28"/>
+<junction x="-45.72" y="76.2"/>
+<junction x="-50.8" y="76.2"/>
 </segment>
 <segment>
 <pinref part="D39-53-ODD" gate="1" pin="1"/>
@@ -3143,14 +3143,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <junction x="53.34" y="139.7"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <junction x="53.34" y="134.62"/>
-</segment>
-<segment>
-<pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="-48.26" y1="76.2" x2="-45.72" y2="76.2" width="0.1524" layer="91"/>
-<junction x="-48.26" y="76.2"/>
-<pinref part="ULN2" gate="G$1" pin="9"/>
-<wire x1="-45.72" y1="81.28" x2="-45.72" y2="76.2" width="0.1524" layer="91"/>
-<junction x="-45.72" y="81.28"/>
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
@@ -3248,8 +3240,10 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </segment>
 <segment>
 <pinref part="SUPPLY6" gate="+5V" pin="+5V"/>
-<wire x1="-17.78" y1="76.2" x2="-15.24" y2="76.2" width="0.1524" layer="91"/>
-<junction x="-15.24" y="76.2"/>
+<pinref part="ULN2" gate="G$1" pin="10"/>
+<wire x1="-17.78" y1="81.28" x2="-17.78" y2="76.2" width="0.1524" layer="91"/>
+<junction x="-17.78" y="81.28"/>
+<junction x="-17.78" y="76.2"/>
 </segment>
 <segment>
 <pinref part="D22-36_EVEN" gate="1" pin="9"/>
@@ -3370,14 +3364,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <junction x="81.28" y="139.7"/>
 <pinref part="SUPPLY5" gate="+5V" pin="+5V"/>
 <junction x="81.28" y="134.62"/>
-</segment>
-<segment>
-<pinref part="SUPPLY17" gate="+5V" pin="+5V"/>
-<wire x1="-17.78" y1="76.2" x2="-15.24" y2="76.2" width="0.1524" layer="91"/>
-<junction x="-15.24" y="76.2"/>
-<pinref part="ULN2" gate="G$1" pin="10"/>
-<wire x1="-17.78" y1="81.28" x2="-17.78" y2="76.2" width="0.1524" layer="91"/>
-<junction x="-17.78" y="81.28"/>
 </segment>
 <segment>
 <pinref part="ULN1" gate="G$1" pin="10"/>
@@ -3814,11 +3800,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="81.28" y1="144.78" x2="99.06" y2="149.86" width="0.1524" layer="91"/>
 <junction x="81.28" y="144.78"/>
 <junction x="99.06" y="149.86"/>
-</segment>
-</net>
-<net name="N$17" class="0">
-<segment>
-<wire x1="-17.78" y1="63.5" x2="-7.62" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$133" class="0">
@@ -4842,6 +4823,81 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="113,1,-71.0777,154.745,D0-7,,,,,"/>
+<approved hash="113,1,25.4423,164.905,D14-21,,,,,"/>
+<approved hash="113,1,23.4088,110.295,D22-36_EVEN,,,,,"/>
+<approved hash="113,1,128.072,169.105,D23-37-ODD,,,,,"/>
+<approved hash="113,1,130.37,110.295,D38-52-EVEN,,,,,"/>
+<approved hash="113,1,237.292,146.245,D39-53-ODD,,,,,"/>
+<approved hash="113,1,-3.85233,162.691,JP1,,,,,"/>
+<approved hash="113,1,102.828,160.151,JP3,,,,,"/>
+<approved hash="113,1,95.2077,101.731,JP4,,,,,"/>
+<approved hash="113,1,209.508,160.151,JP5,,,,,"/>
+<approved hash="113,1,209.508,104.271,JP6,,,,,"/>
+<approved hash="113,1,318.728,139.831,JP7,,,,,"/>
+<approved hash="113,1,-80.6027,109.025,JP8,,,,,"/>
+<approved hash="113,1,-31.75,156.443,ULN1,,,,,"/>
+<approved hash="113,1,-55.88,166.095,R2,,,,,"/>
+<approved hash="113,1,-55.88,161.015,R3,,,,,"/>
+<approved hash="113,1,-55.88,155.935,R4,,,,,"/>
+<approved hash="113,1,-55.88,150.855,R5,,,,,"/>
+<approved hash="113,1,-55.88,145.775,R6,,,,,"/>
+<approved hash="113,1,-55.88,140.695,R7,,,,,"/>
+<approved hash="113,1,67.31,161.523,ULN3,,,,,"/>
+<approved hash="113,1,43.18,171.175,R1,,,,,"/>
+<approved hash="113,1,43.18,166.095,R8,,,,,"/>
+<approved hash="113,1,43.18,161.015,R9,,,,,"/>
+<approved hash="113,1,43.18,155.935,R10,,,,,"/>
+<approved hash="113,1,43.18,150.855,R11,,,,,"/>
+<approved hash="113,1,43.18,145.775,R12,,,,,"/>
+<approved hash="113,1,43.18,176.255,R13,,,,,"/>
+<approved hash="113,1,43.18,181.335,R14,,,,,"/>
+<approved hash="113,1,-31.75,103.103,ULN2,,,,,"/>
+<approved hash="113,1,-55.88,112.755,R15,,,,,"/>
+<approved hash="113,1,-55.88,107.675,R16,,,,,"/>
+<approved hash="113,1,-55.88,102.595,R17,,,,,"/>
+<approved hash="113,1,-55.88,97.5148,R18,,,,,"/>
+<approved hash="113,1,-55.88,92.4348,R19,,,,,"/>
+<approved hash="113,1,-55.88,87.3548,R20,,,,,"/>
+<approved hash="113,1,67.31,103.103,ULN4,,,,,"/>
+<approved hash="113,1,43.18,112.755,R21,,,,,"/>
+<approved hash="113,1,43.18,107.675,R22,,,,,"/>
+<approved hash="113,1,43.18,102.595,R23,,,,,"/>
+<approved hash="113,1,43.18,97.5148,R24,,,,,"/>
+<approved hash="113,1,43.18,92.4348,R25,,,,,"/>
+<approved hash="113,1,43.18,87.3548,R26,,,,,"/>
+<approved hash="113,1,43.18,117.835,R27,,,,,"/>
+<approved hash="113,1,43.18,122.915,R28,,,,,"/>
+<approved hash="113,1,173.99,161.523,ULN7,,,,,"/>
+<approved hash="113,1,149.86,171.175,R29,,,,,"/>
+<approved hash="113,1,149.86,166.095,R30,,,,,"/>
+<approved hash="113,1,149.86,161.015,R31,,,,,"/>
+<approved hash="113,1,149.86,155.935,R32,,,,,"/>
+<approved hash="113,1,149.86,150.855,R33,,,,,"/>
+<approved hash="113,1,149.86,145.775,R34,,,,,"/>
+<approved hash="113,1,149.86,176.255,R35,,,,,"/>
+<approved hash="113,1,149.86,181.335,R36,,,,,"/>
+<approved hash="113,1,173.99,105.643,ULN5,,,,,"/>
+<approved hash="113,1,149.86,115.295,R37,,,,,"/>
+<approved hash="113,1,149.86,110.215,R38,,,,,"/>
+<approved hash="113,1,149.86,105.135,R39,,,,,"/>
+<approved hash="113,1,149.86,100.055,R40,,,,,"/>
+<approved hash="113,1,149.86,94.9748,R41,,,,,"/>
+<approved hash="113,1,149.86,89.8948,R42,,,,,"/>
+<approved hash="113,1,149.86,120.375,R43,,,,,"/>
+<approved hash="113,1,149.86,125.455,R44,,,,,"/>
+<approved hash="113,1,283.21,141.203,ULN6,,,,,"/>
+<approved hash="113,1,259.08,150.855,R45,,,,,"/>
+<approved hash="113,1,259.08,145.775,R46,,,,,"/>
+<approved hash="113,1,259.08,140.695,R47,,,,,"/>
+<approved hash="113,1,259.08,135.615,R48,,,,,"/>
+<approved hash="113,1,259.08,130.535,R49,,,,,"/>
+<approved hash="113,1,259.08,125.455,R50,,,,,"/>
+<approved hash="113,1,259.08,155.935,R51,,,,,"/>
+<approved hash="113,1,259.08,161.015,R52,,,,,"/>
+<approved hash="113,1,-3.85233,109.351,JP9,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
