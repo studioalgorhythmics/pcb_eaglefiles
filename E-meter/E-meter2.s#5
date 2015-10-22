@@ -4299,600 +4299,6 @@ http://dangerousprototypes.com</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="4009dist_PWM3_v1">
-<packages>
-<package name="POT_EVUE">
-<description>&lt;b&gt;9 mm Square Rotary Potentiometers&lt;/b&gt; Horizontal, Snap-in&lt;p&gt;
-Source: Panasonic</description>
-<wire x1="-4.35" y1="4.9" x2="-2.25" y2="4.9" width="0" layer="46"/>
-<wire x1="-2.25" y1="3.3" x2="-4.35" y2="3.3" width="0" layer="46"/>
-<wire x1="-4.35" y1="4.9" x2="-4.35" y2="3.3" width="0" layer="46"/>
-<wire x1="-2.25" y1="4.9" x2="-2.25" y2="3.3" width="0" layer="46"/>
-<wire x1="-4.35" y1="-3.3" x2="-2.25" y2="-3.3" width="0" layer="46"/>
-<wire x1="-2.25" y1="-4.9" x2="-4.35" y2="-4.9" width="0" layer="46"/>
-<wire x1="-4.35" y1="-3.3" x2="-4.35" y2="-4.9" width="0" layer="46"/>
-<wire x1="-2.25" y1="-3.3" x2="-2.25" y2="-4.9" width="0" layer="46"/>
-<wire x1="-5.7" y1="4.65" x2="3.45" y2="4.65" width="0.2032" layer="51"/>
-<wire x1="3.45" y1="4.65" x2="3.45" y2="-4.65" width="0.2032" layer="21"/>
-<wire x1="3.45" y1="-4.65" x2="-5.7" y2="-4.65" width="0.2032" layer="51"/>
-<wire x1="-5.7" y1="-4.65" x2="-5.7" y2="4.65" width="0.2032" layer="21"/>
-<wire x1="3.55" y1="4.4" x2="4.55" y2="4.4" width="0.2032" layer="21"/>
-<wire x1="4.55" y1="4.4" x2="4.55" y2="2.8" width="0.2032" layer="21"/>
-<wire x1="4.55" y1="2.8" x2="3.55" y2="2.8" width="0.2032" layer="21"/>
-<wire x1="3.55" y1="-4.3" x2="4.55" y2="-4.3" width="0.2032" layer="21"/>
-<wire x1="4.55" y1="-4.3" x2="4.55" y2="-2.8" width="0.2032" layer="21"/>
-<wire x1="4.55" y1="-2.8" x2="3.55" y2="-2.8" width="0.2032" layer="21"/>
-<wire x1="4.65" y1="2.9" x2="18.45" y2="2.9" width="0.2032" layer="21"/>
-<wire x1="18.45" y1="2.9" x2="18.45" y2="-2.9" width="0.2032" layer="21"/>
-<wire x1="18.45" y1="-2.9" x2="4.65" y2="-2.9" width="0.2032" layer="21"/>
-<wire x1="18.45" y1="2.9" x2="23.45" y2="2.9" width="0.2032" layer="21"/>
-<wire x1="23.45" y1="2.9" x2="23.45" y2="-2.9" width="0.2032" layer="21"/>
-<wire x1="23.45" y1="-2.9" x2="18.55" y2="-2.9" width="0.2032" layer="21"/>
-<wire x1="23.45" y1="2.9" x2="28.45" y2="2.9" width="0.2032" layer="21"/>
-<wire x1="28.45" y1="2.9" x2="28.45" y2="-2.9" width="0.2032" layer="21"/>
-<wire x1="28.45" y1="-2.9" x2="23.55" y2="-2.9" width="0.2032" layer="21"/>
-<wire x1="28.45" y1="2.9" x2="33.45" y2="2.9" width="0.2032" layer="21"/>
-<wire x1="33.45" y1="2.9" x2="33.45" y2="-2.9" width="0.2032" layer="21"/>
-<wire x1="33.45" y1="-2.9" x2="28.55" y2="-2.9" width="0.2032" layer="21"/>
-<wire x1="-0.62" y1="4.65" x2="3.45" y2="4.65" width="0.2032" layer="21"/>
-<wire x1="3.45" y1="-4.65" x2="-0.62" y2="-4.65" width="0.2032" layer="21"/>
-<pad name="1" x="0" y="-2.5" drill="1.1" diameter="1.6764"/>
-<pad name="2" x="0" y="0" drill="1.1" diameter="1.6764"/>
-<pad name="3" x="0" y="2.5" drill="1.1" diameter="1.6764"/>
-<pad name="M1" x="-3.3" y="4.1" drill="1.6" diameter="2.8" shape="square"/>
-<pad name="M2" x="-3.3" y="-4.1" drill="1.6" diameter="2.8" shape="square"/>
-<text x="-5.8112" y="5.759" size="1.27" layer="25">&gt;NAME</text>
-<text x="-5.8112" y="-7.537" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="POT_EVUEXXJ">
-<description>&lt;b&gt;9 mm Square Rotary Potentiometers&lt;/b&gt; Single Type with Bushing, Horizontal, Snap-in&lt;p&gt;
-Source: Panasonic</description>
-<wire x1="-3.25" y1="4.9" x2="-1.15" y2="4.9" width="0" layer="46"/>
-<wire x1="-1.15" y1="3.3" x2="-3.25" y2="3.3" width="0" layer="46"/>
-<wire x1="-3.25" y1="4.9" x2="-3.25" y2="3.3" width="0" layer="46"/>
-<wire x1="-1.15" y1="4.9" x2="-1.15" y2="3.3" width="0" layer="46"/>
-<wire x1="-3.25" y1="-3.3" x2="-1.15" y2="-3.3" width="0" layer="46"/>
-<wire x1="-1.15" y1="-4.9" x2="-3.25" y2="-4.9" width="0" layer="46"/>
-<wire x1="-3.25" y1="-3.3" x2="-3.25" y2="-4.9" width="0" layer="46"/>
-<wire x1="-1.15" y1="-3.3" x2="-1.15" y2="-4.9" width="0" layer="46"/>
-<wire x1="-5.7" y1="4.65" x2="5.2" y2="4.65" width="0.2032" layer="51"/>
-<wire x1="5.2" y1="4.65" x2="5.2" y2="-4.65" width="0.2032" layer="21"/>
-<wire x1="5.2" y1="-4.65" x2="-5.7" y2="-4.65" width="0.2032" layer="51"/>
-<wire x1="-5.7" y1="-4.65" x2="-5.7" y2="4.65" width="0.2032" layer="21"/>
-<wire x1="10.3" y1="2.9" x2="18.45" y2="2.9" width="0.2032" layer="21"/>
-<wire x1="18.45" y1="2.9" x2="18.45" y2="-2.9" width="0.2032" layer="21"/>
-<wire x1="18.45" y1="-2.9" x2="10.3" y2="-2.9" width="0.2032" layer="21"/>
-<wire x1="18.45" y1="2.9" x2="23.45" y2="2.9" width="0.2032" layer="21"/>
-<wire x1="23.45" y1="2.9" x2="23.45" y2="-2.9" width="0.2032" layer="21"/>
-<wire x1="23.45" y1="-2.9" x2="18.55" y2="-2.9" width="0.2032" layer="21"/>
-<wire x1="23.45" y1="2.9" x2="28.45" y2="2.9" width="0.2032" layer="21"/>
-<wire x1="28.45" y1="2.9" x2="28.45" y2="-2.9" width="0.2032" layer="21"/>
-<wire x1="28.45" y1="-2.9" x2="23.55" y2="-2.9" width="0.2032" layer="21"/>
-<wire x1="28.45" y1="2.9" x2="33.45" y2="2.9" width="0.2032" layer="21"/>
-<wire x1="33.45" y1="2.9" x2="33.45" y2="-2.9" width="0.2032" layer="21"/>
-<wire x1="33.45" y1="-2.9" x2="28.55" y2="-2.9" width="0.2032" layer="21"/>
-<wire x1="-0.12" y1="4.65" x2="5.2" y2="4.65" width="0.2032" layer="21"/>
-<wire x1="5.2" y1="-4.65" x2="-0.12" y2="-4.65" width="0.2032" layer="21"/>
-<wire x1="-2.2" y1="8.8" x2="-2.2" y2="-6.6" width="0" layer="51"/>
-<wire x1="5.3" y1="5" x2="5.3" y2="-5" width="0" layer="20"/>
-<wire x1="5.3" y1="3.9" x2="10.2" y2="3.9" width="0.2032" layer="21"/>
-<wire x1="10.2" y1="3.9" x2="10.2" y2="-3.9" width="0.2032" layer="21"/>
-<wire x1="10.2" y1="-3.9" x2="5.3" y2="-3.9" width="0.2032" layer="21"/>
-<pad name="1" x="0" y="-2.5" drill="1.1" diameter="1.6764"/>
-<pad name="2" x="0" y="0" drill="1.1" diameter="1.6764"/>
-<pad name="3" x="0" y="2.5" drill="1.1" diameter="1.6764"/>
-<pad name="M1" x="-2.2" y="4.1" drill="1.6" diameter="2.8"/>
-<pad name="M2" x="-2.2" y="-4.1" drill="1.6" diameter="2.8"/>
-<text x="-5.8112" y="5.759" size="1.27" layer="25">&gt;NAME</text>
-<text x="-5.8112" y="-7.537" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="POT_EVUEXK">
-<description>&lt;b&gt;9 mm Square Rotary Potentiometers&lt;/b&gt; Single Type with Bushing, Horizontal, Snap-in&lt;p&gt;
-Source: Panasonic</description>
-<wire x1="-3.25" y1="4.9" x2="-1.15" y2="4.9" width="0" layer="46"/>
-<wire x1="-1.15" y1="3.3" x2="-3.25" y2="3.3" width="0" layer="46"/>
-<wire x1="-3.25" y1="4.9" x2="-3.25" y2="3.3" width="0" layer="46"/>
-<wire x1="-1.15" y1="4.9" x2="-1.15" y2="3.3" width="0" layer="46"/>
-<wire x1="-3.25" y1="-3.3" x2="-1.15" y2="-3.3" width="0" layer="46"/>
-<wire x1="-1.15" y1="-4.9" x2="-3.25" y2="-4.9" width="0" layer="46"/>
-<wire x1="-3.25" y1="-3.3" x2="-3.25" y2="-4.9" width="0" layer="46"/>
-<wire x1="-1.15" y1="-3.3" x2="-1.15" y2="-4.9" width="0" layer="46"/>
-<wire x1="-5.7" y1="4.65" x2="5.2" y2="4.65" width="0.2032" layer="51"/>
-<wire x1="5.2" y1="4.65" x2="5.2" y2="-4.65" width="0.2032" layer="21"/>
-<wire x1="5.2" y1="-4.65" x2="-5.7" y2="-4.65" width="0.2032" layer="51"/>
-<wire x1="-5.7" y1="-4.65" x2="-5.7" y2="4.65" width="0.2032" layer="21"/>
-<wire x1="10.3" y1="2.9" x2="18.45" y2="2.9" width="0.2032" layer="21"/>
-<wire x1="18.45" y1="2.9" x2="18.45" y2="-2.9" width="0.2032" layer="21"/>
-<wire x1="18.45" y1="-2.9" x2="10.3" y2="-2.9" width="0.2032" layer="21"/>
-<wire x1="18.45" y1="2.9" x2="23.45" y2="2.9" width="0.2032" layer="21"/>
-<wire x1="23.45" y1="2.9" x2="23.45" y2="-2.9" width="0.2032" layer="21"/>
-<wire x1="23.45" y1="-2.9" x2="18.55" y2="-2.9" width="0.2032" layer="21"/>
-<wire x1="23.45" y1="2.9" x2="28.45" y2="2.9" width="0.2032" layer="21"/>
-<wire x1="28.45" y1="2.9" x2="28.45" y2="-2.9" width="0.2032" layer="21"/>
-<wire x1="28.45" y1="-2.9" x2="23.55" y2="-2.9" width="0.2032" layer="21"/>
-<wire x1="28.45" y1="2.9" x2="33.45" y2="2.9" width="0.2032" layer="21"/>
-<wire x1="33.45" y1="2.9" x2="33.45" y2="-2.9" width="0.2032" layer="21"/>
-<wire x1="33.45" y1="-2.9" x2="28.55" y2="-2.9" width="0.2032" layer="21"/>
-<wire x1="-0.12" y1="4.65" x2="5.2" y2="4.65" width="0.2032" layer="21"/>
-<wire x1="5.2" y1="-4.65" x2="-0.12" y2="-4.65" width="0.2032" layer="21"/>
-<wire x1="-2.2" y1="8.8" x2="-2.2" y2="-6.6" width="0" layer="51"/>
-<wire x1="5.3" y1="5" x2="5.3" y2="-5" width="0" layer="20"/>
-<wire x1="5.3" y1="3.9" x2="10.2" y2="3.9" width="0.2032" layer="21"/>
-<wire x1="10.2" y1="3.9" x2="10.2" y2="-3.9" width="0.2032" layer="21"/>
-<wire x1="10.2" y1="-3.9" x2="5.3" y2="-3.9" width="0.2032" layer="21"/>
-<pad name="1" x="0" y="-2.5" drill="1.1" diameter="1.6764"/>
-<pad name="2" x="0" y="0" drill="1.1" diameter="1.6764"/>
-<pad name="3" x="0" y="2.5" drill="1.1" diameter="1.6764"/>
-<pad name="M1" x="-2.2" y="4.1" drill="1.6" diameter="2.8"/>
-<pad name="M2" x="-2.2" y="-4.1" drill="1.6" diameter="2.8"/>
-<text x="-5.8112" y="5.759" size="1.27" layer="25">&gt;NAME</text>
-<text x="-5.8112" y="-7.537" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="POT_EVUF">
-<description>&lt;b&gt;9 mm Square Rotary Potentiometers&lt;/b&gt; Vertical, Snap-in&lt;p&gt;
-Source: Panasonic</description>
-<circle x="-2.5" y="-4.6" radius="0.65" width="0.1016" layer="21"/>
-<circle x="2.5" y="-4.6" radius="0.65" width="0.1016" layer="21"/>
-<circle x="-2.5" y="4.3" radius="0.65" width="0.1016" layer="21"/>
-<circle x="2.5" y="4.3" radius="0.65" width="0.1016" layer="21"/>
-<circle x="0" y="0" radius="2.9" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="2.3501" width="0.2032" layer="21"/>
-<wire x1="5.3" y1="1.05" x2="5.3" y2="-1.05" width="0" layer="46"/>
-<wire x1="3.7" y1="-1.05" x2="3.7" y2="1.05" width="0" layer="46"/>
-<wire x1="5.3" y1="1.05" x2="3.7" y2="1.05" width="0" layer="46"/>
-<wire x1="5.3" y1="-1.05" x2="3.7" y2="-1.05" width="0" layer="46"/>
-<wire x1="-3.7" y1="1.05" x2="-3.7" y2="-1.05" width="0" layer="46"/>
-<wire x1="-5.3" y1="-1.05" x2="-5.3" y2="1.05" width="0" layer="46"/>
-<wire x1="-3.7" y1="1.05" x2="-5.3" y2="1.05" width="0" layer="46"/>
-<wire x1="-3.7" y1="-1.05" x2="-5.3" y2="-1.05" width="0" layer="46"/>
-<wire x1="-4.1" y1="5.4" x2="4.1" y2="5.4" width="0.2032" layer="21"/>
-<wire x1="4.65" y1="4.85" x2="4.65" y2="-5.35" width="0.2032" layer="51"/>
-<wire x1="4.1" y1="-5.9" x2="-4.1" y2="-5.9" width="0.2032" layer="21"/>
-<wire x1="-4.65" y1="-5.35" x2="-4.65" y2="4.85" width="0.2032" layer="51"/>
-<wire x1="-4.75" y1="0.9" x2="-5.5" y2="0.9" width="0.2032" layer="51"/>
-<wire x1="-5.5" y1="0.9" x2="-5.5" y2="-0.9" width="0.2032" layer="51"/>
-<wire x1="-5.5" y1="-0.9" x2="-4.75" y2="-0.9" width="0.2032" layer="51"/>
-<wire x1="4.75" y1="-0.9" x2="5.5" y2="-0.9" width="0.2032" layer="51"/>
-<wire x1="5.5" y1="-0.9" x2="5.5" y2="0.9" width="0.2032" layer="51"/>
-<wire x1="5.5" y1="0.9" x2="4.75" y2="0.9" width="0.2032" layer="51"/>
-<wire x1="-4.1" y1="4.85" x2="-4.65" y2="4.85" width="0.2032" layer="21"/>
-<wire x1="-4.1" y1="5.4" x2="-4.1" y2="4.85" width="0.2032" layer="21"/>
-<wire x1="-4.1" y1="-5.35" x2="-4.1" y2="-5.9" width="0.2032" layer="21"/>
-<wire x1="-4.65" y1="-5.35" x2="-4.1" y2="-5.35" width="0.2032" layer="21"/>
-<wire x1="4.1" y1="-5.35" x2="4.65" y2="-5.35" width="0.2032" layer="21"/>
-<wire x1="4.1" y1="-5.9" x2="4.1" y2="-5.35" width="0.2032" layer="21"/>
-<wire x1="4.1" y1="4.85" x2="4.1" y2="5.4" width="0.2032" layer="21"/>
-<wire x1="4.65" y1="4.85" x2="4.1" y2="4.85" width="0.2032" layer="21"/>
-<wire x1="-4.65" y1="2.65" x2="-4.65" y2="4.85" width="0.2032" layer="21"/>
-<wire x1="-4.65" y1="-5.35" x2="-4.65" y2="-2.15" width="0.2032" layer="21"/>
-<wire x1="4.65" y1="4.85" x2="4.65" y2="2.65" width="0.2032" layer="21"/>
-<wire x1="4.65" y1="-2.15" x2="4.65" y2="-5.35" width="0.2032" layer="21"/>
-<rectangle x1="-2.925" y1="-7.325" x2="-2.075" y2="-6" layer="51"/>
-<rectangle x1="-0.425" y1="-7.325" x2="0.425" y2="-6" layer="51"/>
-<rectangle x1="2.075" y1="-7.325" x2="2.925" y2="-6" layer="51"/>
-<pad name="1" x="-2.5" y="-7" drill="1.1" diameter="1.9304" rot="R270"/>
-<pad name="2" x="0" y="-7" drill="1.1" diameter="1.9304" rot="R270"/>
-<pad name="3" x="2.5" y="-7" drill="1.1" diameter="1.9304" rot="R270"/>
-<pad name="M1" x="4.6" y="0" drill="2.54" diameter="3.81" rot="R270"/>
-<pad name="M2" x="-4.7" y="0" drill="2.54" diameter="3.81" rot="R270"/>
-<text x="-3" y="6" size="1.27" layer="25">&gt;NAME</text>
-<text x="-4.5" y="-9.5" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="POT_EVUFXJ">
-<description>&lt;b&gt;9 mm Square Rotary Potentiometers&lt;/b&gt; Single Type with Bushing, Vertical, Snap-in&lt;p&gt;
-Source: Panasonic</description>
-<circle x="-2.5" y="4.3" radius="0.65" width="0.1016" layer="21"/>
-<circle x="0" y="0" radius="3.575" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="2.8" width="0.2032" layer="21"/>
-<circle x="2.5" y="-4.3" radius="0.65" width="0.1016" layer="21"/>
-<wire x1="5.3" y1="1.05" x2="5.3" y2="-1.05" width="0" layer="46"/>
-<wire x1="3.7" y1="-1.05" x2="3.7" y2="1.05" width="0" layer="46"/>
-<wire x1="5.3" y1="1.05" x2="3.7" y2="1.05" width="0" layer="46"/>
-<wire x1="5.3" y1="-1.05" x2="3.7" y2="-1.05" width="0" layer="46"/>
-<wire x1="-3.7" y1="1.05" x2="-3.7" y2="-1.05" width="0" layer="46"/>
-<wire x1="-5.3" y1="-1.05" x2="-5.3" y2="1.05" width="0" layer="46"/>
-<wire x1="-3.7" y1="1.05" x2="-5.3" y2="1.05" width="0" layer="46"/>
-<wire x1="-3.7" y1="-1.05" x2="-5.3" y2="-1.05" width="0" layer="46"/>
-<wire x1="-4.1" y1="5.9" x2="4.1" y2="5.9" width="0.2032" layer="21"/>
-<wire x1="4.75" y1="5.35" x2="4.75" y2="-5.85" width="0.2032" layer="51"/>
-<wire x1="4.1" y1="-6.4" x2="-4.1" y2="-6.4" width="0.2032" layer="51"/>
-<wire x1="-4.75" y1="-5.85" x2="-4.75" y2="5.35" width="0.2032" layer="51"/>
-<wire x1="-4.85" y1="0.9" x2="-5.5" y2="0.9" width="0.2032" layer="51"/>
-<wire x1="-5.5" y1="0.9" x2="-5.5" y2="-0.9" width="0.2032" layer="51"/>
-<wire x1="-5.5" y1="-0.9" x2="-4.85" y2="-0.9" width="0.2032" layer="51"/>
-<wire x1="4.85" y1="-0.9" x2="5.5" y2="-0.9" width="0.2032" layer="51"/>
-<wire x1="5.5" y1="-0.9" x2="5.5" y2="0.9" width="0.2032" layer="51"/>
-<wire x1="5.5" y1="0.9" x2="4.85" y2="0.9" width="0.2032" layer="51"/>
-<wire x1="-4.1" y1="5.35" x2="-4.75" y2="5.35" width="0.2032" layer="21"/>
-<wire x1="-4.1" y1="5.9" x2="-4.1" y2="5.35" width="0.2032" layer="21"/>
-<wire x1="-4.1" y1="-5.85" x2="-4.1" y2="-6.4" width="0.2032" layer="21"/>
-<wire x1="-4.75" y1="-5.85" x2="-4.1" y2="-5.85" width="0.2032" layer="21"/>
-<wire x1="4.1" y1="-5.85" x2="4.75" y2="-5.85" width="0.2032" layer="21"/>
-<wire x1="4.1" y1="-6.4" x2="4.1" y2="-5.85" width="0.2032" layer="21"/>
-<wire x1="4.1" y1="5.35" x2="4.1" y2="5.9" width="0.2032" layer="21"/>
-<wire x1="4.75" y1="5.35" x2="4.1" y2="5.35" width="0.2032" layer="21"/>
-<wire x1="-4.75" y1="2.65" x2="-4.75" y2="5.35" width="0.2032" layer="21"/>
-<wire x1="-4.75" y1="-5.85" x2="-4.75" y2="-2.15" width="0.2032" layer="21"/>
-<wire x1="4.75" y1="5.35" x2="4.75" y2="2.65" width="0.2032" layer="21"/>
-<wire x1="4.75" y1="-2.15" x2="4.75" y2="-5.85" width="0.2032" layer="21"/>
-<wire x1="-3.9" y1="2.05" x2="-2.75" y2="3.425" width="0.2032" layer="21" curve="-25.698073"/>
-<wire x1="2.05" y1="3.9" x2="3.9" y2="2.05" width="0.2032" layer="21" curve="-34.543485"/>
-<wire x1="-1.7" y1="3.9" x2="2.05" y2="3.9" width="0.2032" layer="21"/>
-<wire x1="-3.9" y1="2.05" x2="-3.9" y2="-2.05" width="0.2032" layer="21"/>
-<wire x1="-2.75" y1="3.425" x2="-1.7" y2="3.9" width="0.2032" layer="21" curve="80.060519"/>
-<wire x1="3.9" y1="-2.05" x2="2.75" y2="-3.425" width="0.2032" layer="21" curve="-25.698073"/>
-<wire x1="-2.05" y1="-3.9" x2="-3.9" y2="-2.05" width="0.2032" layer="21" curve="-34.543485"/>
-<wire x1="1.7" y1="-3.9" x2="-2.05" y2="-3.9" width="0.2032" layer="21"/>
-<wire x1="3.9" y1="-2.05" x2="3.9" y2="2.05" width="0.2032" layer="21"/>
-<wire x1="2.75" y1="-3.425" x2="1.7" y2="-3.9" width="0.2032" layer="21" curve="80.060519"/>
-<rectangle x1="-2.925" y1="-7.325" x2="-2.075" y2="-6.5" layer="51"/>
-<rectangle x1="-0.425" y1="-7.325" x2="0.425" y2="-6.5" layer="51"/>
-<rectangle x1="2.075" y1="-7.325" x2="2.925" y2="-6.5" layer="51"/>
-<pad name="1" x="-2.5" y="-7" drill="1.1" diameter="1.6764" rot="R270"/>
-<pad name="2" x="0" y="-7" drill="1.1" diameter="1.6764" rot="R270"/>
-<pad name="3" x="2.5" y="-7" drill="1.1" diameter="1.6764" rot="R270"/>
-<pad name="M1" x="4.5" y="0" drill="1.6" diameter="2.8" shape="square" rot="R270"/>
-<pad name="M2" x="-4.5" y="0" drill="1.6" diameter="2.8" shape="square" rot="R270"/>
-<text x="-3" y="6.5" size="1.27" layer="25">&gt;NAME</text>
-<text x="-4.5" y="-9.5" size="1.27" layer="27">&gt;VALUE</text>
-<hole x="0" y="3.5" drill="2"/>
-<hole x="0" y="-4" drill="2"/>
-</package>
-<package name="POT_EVUFXK">
-<description>&lt;b&gt;9 mm Square Rotary Potentiometers&lt;/b&gt; Single Type with Bushing, Vertical, Snap-in&lt;p&gt;
-Source: Panasonic</description>
-<circle x="-2.5" y="4.3" radius="0.65" width="0.1016" layer="21"/>
-<circle x="0" y="0" radius="3.575" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="2.8" width="0.2032" layer="21"/>
-<circle x="2.5" y="-4.3" radius="0.65" width="0.1016" layer="21"/>
-<wire x1="5.3" y1="1.05" x2="5.3" y2="-1.05" width="0" layer="46"/>
-<wire x1="3.7" y1="-1.05" x2="3.7" y2="1.05" width="0" layer="46"/>
-<wire x1="5.3" y1="1.05" x2="3.7" y2="1.05" width="0" layer="46"/>
-<wire x1="5.3" y1="-1.05" x2="3.7" y2="-1.05" width="0" layer="46"/>
-<wire x1="-3.7" y1="1.05" x2="-3.7" y2="-1.05" width="0" layer="46"/>
-<wire x1="-5.3" y1="-1.05" x2="-5.3" y2="1.05" width="0" layer="46"/>
-<wire x1="-3.7" y1="1.05" x2="-5.3" y2="1.05" width="0" layer="46"/>
-<wire x1="-3.7" y1="-1.05" x2="-5.3" y2="-1.05" width="0" layer="46"/>
-<wire x1="-4.1" y1="5.9" x2="4.1" y2="5.9" width="0.2032" layer="21"/>
-<wire x1="4.75" y1="5.35" x2="4.75" y2="-5.85" width="0.2032" layer="51"/>
-<wire x1="4.1" y1="-6.4" x2="-4.1" y2="-6.4" width="0.2032" layer="51"/>
-<wire x1="-4.75" y1="-5.85" x2="-4.75" y2="5.35" width="0.2032" layer="51"/>
-<wire x1="-4.85" y1="0.9" x2="-5.5" y2="0.9" width="0.2032" layer="51"/>
-<wire x1="-5.5" y1="0.9" x2="-5.5" y2="-0.9" width="0.2032" layer="51"/>
-<wire x1="-5.5" y1="-0.9" x2="-4.85" y2="-0.9" width="0.2032" layer="51"/>
-<wire x1="4.85" y1="-0.9" x2="5.5" y2="-0.9" width="0.2032" layer="51"/>
-<wire x1="5.5" y1="-0.9" x2="5.5" y2="0.9" width="0.2032" layer="51"/>
-<wire x1="5.5" y1="0.9" x2="4.85" y2="0.9" width="0.2032" layer="51"/>
-<wire x1="-4.1" y1="5.35" x2="-4.75" y2="5.35" width="0.2032" layer="21"/>
-<wire x1="-4.1" y1="5.9" x2="-4.1" y2="5.35" width="0.2032" layer="21"/>
-<wire x1="-4.1" y1="-5.85" x2="-4.1" y2="-6.4" width="0.2032" layer="21"/>
-<wire x1="-4.75" y1="-5.85" x2="-4.1" y2="-5.85" width="0.2032" layer="21"/>
-<wire x1="4.1" y1="-5.85" x2="4.75" y2="-5.85" width="0.2032" layer="21"/>
-<wire x1="4.1" y1="-6.4" x2="4.1" y2="-5.85" width="0.2032" layer="21"/>
-<wire x1="4.1" y1="5.35" x2="4.1" y2="5.9" width="0.2032" layer="21"/>
-<wire x1="4.75" y1="5.35" x2="4.1" y2="5.35" width="0.2032" layer="21"/>
-<wire x1="-4.75" y1="2.65" x2="-4.75" y2="5.35" width="0.2032" layer="21"/>
-<wire x1="-4.75" y1="-5.85" x2="-4.75" y2="-2.15" width="0.2032" layer="21"/>
-<wire x1="4.75" y1="5.35" x2="4.75" y2="2.65" width="0.2032" layer="21"/>
-<wire x1="4.75" y1="-2.15" x2="4.75" y2="-5.85" width="0.2032" layer="21"/>
-<wire x1="-3.9" y1="2.05" x2="-2.75" y2="3.425" width="0.2032" layer="21" curve="-25.698073"/>
-<wire x1="2.05" y1="3.9" x2="3.9" y2="2.05" width="0.2032" layer="21" curve="-34.543485"/>
-<wire x1="-1.7" y1="3.9" x2="2.05" y2="3.9" width="0.2032" layer="21"/>
-<wire x1="-3.9" y1="2.05" x2="-3.9" y2="-2.05" width="0.2032" layer="21"/>
-<wire x1="-2.75" y1="3.425" x2="-1.7" y2="3.9" width="0.2032" layer="21" curve="80.060519"/>
-<wire x1="3.9" y1="-2.05" x2="2.75" y2="-3.425" width="0.2032" layer="21" curve="-25.698073"/>
-<wire x1="-2.05" y1="-3.9" x2="-3.9" y2="-2.05" width="0.2032" layer="21" curve="-34.543485"/>
-<wire x1="1.7" y1="-3.9" x2="-2.05" y2="-3.9" width="0.2032" layer="21"/>
-<wire x1="3.9" y1="-2.05" x2="3.9" y2="2.05" width="0.2032" layer="21"/>
-<wire x1="2.75" y1="-3.425" x2="1.7" y2="-3.9" width="0.2032" layer="21" curve="80.060519"/>
-<rectangle x1="-2.925" y1="-7.325" x2="-2.075" y2="-6.5" layer="51"/>
-<rectangle x1="-0.425" y1="-7.325" x2="0.425" y2="-6.5" layer="51"/>
-<rectangle x1="2.075" y1="-7.325" x2="2.925" y2="-6.5" layer="51"/>
-<pad name="1" x="-2.5" y="-7" drill="1.1" diameter="1.6764" rot="R270"/>
-<pad name="2" x="0" y="-7" drill="1.1" diameter="1.6764" rot="R270"/>
-<pad name="3" x="2.5" y="-7" drill="1.1" diameter="1.6764" rot="R270"/>
-<pad name="M1" x="4.5" y="0" drill="1.6" diameter="2.8" shape="square" rot="R270"/>
-<pad name="M2" x="-4.5" y="0" drill="1.6" diameter="2.8" shape="square" rot="R270"/>
-<text x="-3" y="6.5" size="1.27" layer="25">&gt;NAME</text>
-<text x="-4.5" y="-9.5" size="1.27" layer="27">&gt;VALUE</text>
-<hole x="0" y="3.5" drill="2"/>
-<hole x="0" y="-4" drill="2"/>
-</package>
-<package name="POT_EVUFXL">
-<description>&lt;b&gt;9 mm Square Rotary Potentiometers&lt;/b&gt; Single Type with Bushing, Vertical, Snap-in&lt;p&gt;
-Source: Panasonic</description>
-<circle x="-2.5" y="4.3" radius="0.65" width="0.1016" layer="21"/>
-<circle x="0" y="0" radius="3.575" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="2.8" width="0.2032" layer="21"/>
-<circle x="2.5" y="-4.3" radius="0.65" width="0.1016" layer="21"/>
-<wire x1="5.3" y1="1.05" x2="5.3" y2="-1.05" width="0" layer="46"/>
-<wire x1="3.7" y1="-1.05" x2="3.7" y2="1.05" width="0" layer="46"/>
-<wire x1="5.3" y1="1.05" x2="3.7" y2="1.05" width="0" layer="46"/>
-<wire x1="5.3" y1="-1.05" x2="3.7" y2="-1.05" width="0" layer="46"/>
-<wire x1="-3.7" y1="1.05" x2="-3.7" y2="-1.05" width="0" layer="46"/>
-<wire x1="-5.3" y1="-1.05" x2="-5.3" y2="1.05" width="0" layer="46"/>
-<wire x1="-3.7" y1="1.05" x2="-5.3" y2="1.05" width="0" layer="46"/>
-<wire x1="-3.7" y1="-1.05" x2="-5.3" y2="-1.05" width="0" layer="46"/>
-<wire x1="-4.1" y1="5.9" x2="4.1" y2="5.9" width="0.2032" layer="21"/>
-<wire x1="4.75" y1="5.35" x2="4.75" y2="-5.85" width="0.2032" layer="51"/>
-<wire x1="4.1" y1="-6.4" x2="-4.1" y2="-6.4" width="0.2032" layer="51"/>
-<wire x1="-4.75" y1="-5.85" x2="-4.75" y2="5.35" width="0.2032" layer="51"/>
-<wire x1="-4.85" y1="0.9" x2="-5.5" y2="0.9" width="0.2032" layer="51"/>
-<wire x1="-5.5" y1="0.9" x2="-5.5" y2="-0.9" width="0.2032" layer="51"/>
-<wire x1="-5.5" y1="-0.9" x2="-4.85" y2="-0.9" width="0.2032" layer="51"/>
-<wire x1="4.85" y1="-0.9" x2="5.5" y2="-0.9" width="0.2032" layer="51"/>
-<wire x1="5.5" y1="-0.9" x2="5.5" y2="0.9" width="0.2032" layer="51"/>
-<wire x1="5.5" y1="0.9" x2="4.85" y2="0.9" width="0.2032" layer="51"/>
-<wire x1="-4.1" y1="5.35" x2="-4.75" y2="5.35" width="0.2032" layer="21"/>
-<wire x1="-4.1" y1="5.9" x2="-4.1" y2="5.35" width="0.2032" layer="21"/>
-<wire x1="-4.1" y1="-5.85" x2="-4.1" y2="-6.4" width="0.2032" layer="21"/>
-<wire x1="-4.75" y1="-5.85" x2="-4.1" y2="-5.85" width="0.2032" layer="21"/>
-<wire x1="4.1" y1="-5.85" x2="4.75" y2="-5.85" width="0.2032" layer="21"/>
-<wire x1="4.1" y1="-6.4" x2="4.1" y2="-5.85" width="0.2032" layer="21"/>
-<wire x1="4.1" y1="5.35" x2="4.1" y2="5.9" width="0.2032" layer="21"/>
-<wire x1="4.75" y1="5.35" x2="4.1" y2="5.35" width="0.2032" layer="21"/>
-<wire x1="-4.75" y1="2.65" x2="-4.75" y2="5.35" width="0.2032" layer="21"/>
-<wire x1="-4.75" y1="-5.85" x2="-4.75" y2="-2.15" width="0.2032" layer="21"/>
-<wire x1="4.75" y1="5.35" x2="4.75" y2="2.65" width="0.2032" layer="21"/>
-<wire x1="4.75" y1="-2.15" x2="4.75" y2="-5.85" width="0.2032" layer="21"/>
-<wire x1="-3.9" y1="2.05" x2="-2.75" y2="3.425" width="0.2032" layer="21" curve="-25.698073"/>
-<wire x1="2.05" y1="3.9" x2="3.9" y2="2.05" width="0.2032" layer="21" curve="-34.543485"/>
-<wire x1="-1.7" y1="3.9" x2="2.05" y2="3.9" width="0.2032" layer="21"/>
-<wire x1="-3.9" y1="2.05" x2="-3.9" y2="-2.05" width="0.2032" layer="21"/>
-<wire x1="-2.75" y1="3.425" x2="-1.7" y2="3.9" width="0.2032" layer="21" curve="80.060519"/>
-<wire x1="3.9" y1="-2.05" x2="2.75" y2="-3.425" width="0.2032" layer="21" curve="-25.698073"/>
-<wire x1="-2.05" y1="-3.9" x2="-3.9" y2="-2.05" width="0.2032" layer="21" curve="-34.543485"/>
-<wire x1="1.7" y1="-3.9" x2="-2.05" y2="-3.9" width="0.2032" layer="21"/>
-<wire x1="3.9" y1="-2.05" x2="3.9" y2="2.05" width="0.2032" layer="21"/>
-<wire x1="2.75" y1="-3.425" x2="1.7" y2="-3.9" width="0.2032" layer="21" curve="80.060519"/>
-<rectangle x1="-2.925" y1="-7.325" x2="-2.075" y2="-6.5" layer="51"/>
-<rectangle x1="-0.425" y1="-7.325" x2="0.425" y2="-6.5" layer="51"/>
-<rectangle x1="2.075" y1="-7.325" x2="2.925" y2="-6.5" layer="51"/>
-<pad name="1" x="-2.5" y="-7" drill="1.1" diameter="1.6764" rot="R270"/>
-<pad name="2" x="0" y="-7" drill="1.1" diameter="1.6764" rot="R270"/>
-<pad name="3" x="2.5" y="-7" drill="1.1" diameter="1.6764" rot="R270"/>
-<pad name="M1" x="4.5" y="0" drill="1.6" diameter="2.8" shape="square" rot="R270"/>
-<pad name="M2" x="-4.5" y="0" drill="1.6" diameter="2.8" shape="square" rot="R270"/>
-<text x="-3" y="6.5" size="1.27" layer="25">&gt;NAME</text>
-<text x="-4.5" y="-9.5" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="POT_EVUFXM">
-<description>&lt;b&gt;9 mm Square Rotary Potentiometers&lt;/b&gt; Single Type with Bushing, Vertical, Snap-in&lt;p&gt;
-Source: Panasonic</description>
-<circle x="-2.5" y="4.3" radius="0.65" width="0.1016" layer="21"/>
-<circle x="0" y="0" radius="3.575" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="2.8" width="0.2032" layer="21"/>
-<circle x="2.5" y="-4.3" radius="0.65" width="0.1016" layer="21"/>
-<wire x1="5.3" y1="1.05" x2="5.3" y2="-1.05" width="0" layer="46"/>
-<wire x1="3.7" y1="-1.05" x2="3.7" y2="1.05" width="0" layer="46"/>
-<wire x1="5.3" y1="1.05" x2="3.7" y2="1.05" width="0" layer="46"/>
-<wire x1="5.3" y1="-1.05" x2="3.7" y2="-1.05" width="0" layer="46"/>
-<wire x1="-3.7" y1="1.05" x2="-3.7" y2="-1.05" width="0" layer="46"/>
-<wire x1="-5.3" y1="-1.05" x2="-5.3" y2="1.05" width="0" layer="46"/>
-<wire x1="-3.7" y1="1.05" x2="-5.3" y2="1.05" width="0" layer="46"/>
-<wire x1="-3.7" y1="-1.05" x2="-5.3" y2="-1.05" width="0" layer="46"/>
-<wire x1="-4.1" y1="5.9" x2="4.1" y2="5.9" width="0.2032" layer="21"/>
-<wire x1="4.75" y1="5.35" x2="4.75" y2="-5.85" width="0.2032" layer="51"/>
-<wire x1="4.1" y1="-6.4" x2="-4.1" y2="-6.4" width="0.2032" layer="51"/>
-<wire x1="-4.75" y1="-5.85" x2="-4.75" y2="5.35" width="0.2032" layer="51"/>
-<wire x1="-4.85" y1="0.9" x2="-5.5" y2="0.9" width="0.2032" layer="51"/>
-<wire x1="-5.5" y1="0.9" x2="-5.5" y2="-0.9" width="0.2032" layer="51"/>
-<wire x1="-5.5" y1="-0.9" x2="-4.85" y2="-0.9" width="0.2032" layer="51"/>
-<wire x1="4.85" y1="-0.9" x2="5.5" y2="-0.9" width="0.2032" layer="51"/>
-<wire x1="5.5" y1="-0.9" x2="5.5" y2="0.9" width="0.2032" layer="51"/>
-<wire x1="5.5" y1="0.9" x2="4.85" y2="0.9" width="0.2032" layer="51"/>
-<wire x1="-4.1" y1="5.35" x2="-4.75" y2="5.35" width="0.2032" layer="21"/>
-<wire x1="-4.1" y1="5.9" x2="-4.1" y2="5.35" width="0.2032" layer="21"/>
-<wire x1="-4.1" y1="-5.85" x2="-4.1" y2="-6.4" width="0.2032" layer="21"/>
-<wire x1="-4.75" y1="-5.85" x2="-4.1" y2="-5.85" width="0.2032" layer="21"/>
-<wire x1="4.1" y1="-5.85" x2="4.75" y2="-5.85" width="0.2032" layer="21"/>
-<wire x1="4.1" y1="-6.4" x2="4.1" y2="-5.85" width="0.2032" layer="21"/>
-<wire x1="4.1" y1="5.35" x2="4.1" y2="5.9" width="0.2032" layer="21"/>
-<wire x1="4.75" y1="5.35" x2="4.1" y2="5.35" width="0.2032" layer="21"/>
-<wire x1="-4.75" y1="2.65" x2="-4.75" y2="5.35" width="0.2032" layer="21"/>
-<wire x1="-4.75" y1="-5.85" x2="-4.75" y2="-2.15" width="0.2032" layer="21"/>
-<wire x1="4.75" y1="5.35" x2="4.75" y2="2.65" width="0.2032" layer="21"/>
-<wire x1="4.75" y1="-2.15" x2="4.75" y2="-5.85" width="0.2032" layer="21"/>
-<wire x1="-3.9" y1="2.05" x2="-2.75" y2="3.425" width="0.2032" layer="21" curve="-25.698073"/>
-<wire x1="2.05" y1="3.9" x2="3.9" y2="2.05" width="0.2032" layer="21" curve="-34.543485"/>
-<wire x1="-1.7" y1="3.9" x2="2.05" y2="3.9" width="0.2032" layer="21"/>
-<wire x1="-3.9" y1="2.05" x2="-3.9" y2="-2.05" width="0.2032" layer="21"/>
-<wire x1="-2.75" y1="3.425" x2="-1.7" y2="3.9" width="0.2032" layer="21" curve="80.060519"/>
-<wire x1="3.9" y1="-2.05" x2="2.75" y2="-3.425" width="0.2032" layer="21" curve="-25.698073"/>
-<wire x1="-2.05" y1="-3.9" x2="-3.9" y2="-2.05" width="0.2032" layer="21" curve="-34.543485"/>
-<wire x1="1.7" y1="-3.9" x2="-2.05" y2="-3.9" width="0.2032" layer="21"/>
-<wire x1="3.9" y1="-2.05" x2="3.9" y2="2.05" width="0.2032" layer="21"/>
-<wire x1="2.75" y1="-3.425" x2="1.7" y2="-3.9" width="0.2032" layer="21" curve="80.060519"/>
-<rectangle x1="-2.925" y1="-7.325" x2="-2.075" y2="-6.5" layer="51"/>
-<rectangle x1="-0.425" y1="-7.325" x2="0.425" y2="-6.5" layer="51"/>
-<rectangle x1="2.075" y1="-7.325" x2="2.925" y2="-6.5" layer="51"/>
-<pad name="1" x="-2.5" y="-7" drill="1.1" diameter="1.6764" rot="R270"/>
-<pad name="2" x="0" y="-7" drill="1.1" diameter="1.6764" rot="R270"/>
-<pad name="3" x="2.5" y="-7" drill="1.1" diameter="1.6764" rot="R270"/>
-<pad name="M1" x="4.5" y="0" drill="1.6" diameter="2.8" shape="square" rot="R270"/>
-<pad name="M2" x="-4.5" y="0" drill="1.6" diameter="2.8" shape="square" rot="R270"/>
-<text x="-3" y="6.5" size="1.27" layer="25">&gt;NAME</text>
-<text x="-4.5" y="-9.5" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="POT_POT_US-">
-<wire x1="0" y1="-5.08" x2="0" y2="-4.572" width="0.1524" layer="94"/>
-<wire x1="0" y1="-4.572" x2="-1.016" y2="-3.81" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="-3.81" x2="1.27" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="-1.016" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="-1.016" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="1.27" x2="1.27" y2="2.54" width="0.254" layer="94"/>
-<wire x1="1.27" y1="2.54" x2="-1.016" y2="3.81" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="3.81" x2="0" y2="4.572" width="0.254" layer="94"/>
-<wire x1="0" y1="4.572" x2="0" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="0" x2="2.54" y2="1.27" width="0.2032" layer="94"/>
-<wire x1="2.54" y1="-1.27" x2="1.27" y2="0" width="0.2032" layer="94"/>
-<wire x1="2.54" y1="1.27" x2="2.54" y2="-1.27" width="0.2032" layer="94"/>
-<wire x1="2.032" y1="-4.699" x2="2.032" y2="-2.159" width="0.1524" layer="94"/>
-<wire x1="2.032" y1="-2.159" x2="2.667" y2="-3.429" width="0.1524" layer="94"/>
-<wire x1="2.667" y1="-3.429" x2="1.397" y2="-3.429" width="0.1524" layer="94"/>
-<wire x1="1.397" y1="-3.429" x2="2.032" y2="-2.159" width="0.1524" layer="94"/>
-<pin name="A" x="0" y="-7.62" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="E" x="0" y="7.62" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="S" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<text x="-5.08" y="-2.54" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="POT_US-EVU" prefix="R">
-<description>&lt;b&gt;9 mm Square Rotary Potentiometers&lt;/b&gt;&lt;p&gt;
-Source: Panasonic</description>
-<gates>
-<gate name="G$1" symbol="POT_POT_US-" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="POT_EVUE">
-<connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="E" pad="3"/>
-<connect gate="G$1" pin="S" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-<technology name="E20"/>
-<technology name="E21"/>
-<technology name="E2A"/>
-<technology name="E30"/>
-<technology name="E31"/>
-<technology name="E3A"/>
-</technologies>
-</device>
-<device name="5" package="POT_EVUEXXJ">
-<connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="E" pad="3"/>
-<connect gate="G$1" pin="S" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-<technology name="E2"/>
-<technology name="E3"/>
-</technologies>
-</device>
-<device name="7" package="POT_EVUEXK">
-<connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="E" pad="3"/>
-<connect gate="G$1" pin="S" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-<technology name="E2"/>
-<technology name="E3"/>
-</technologies>
-</device>
-<device name="A" package="POT_EVUF">
-<connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="E" pad="3"/>
-<connect gate="G$1" pin="S" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-<technology name="F2"/>
-<technology name="F3"/>
-</technologies>
-</device>
-<device name="F2J" package="POT_EVUFXJ">
-<connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="E" pad="3"/>
-<connect gate="G$1" pin="S" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="F2K" package="POT_EVUFXK">
-<connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="E" pad="3"/>
-<connect gate="G$1" pin="S" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="F3J" package="POT_EVUFXJ">
-<connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="E" pad="3"/>
-<connect gate="G$1" pin="S" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="F3K" package="POT_EVUFXK">
-<connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="E" pad="3"/>
-<connect gate="G$1" pin="S" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="J" package="POT_EVUEXXJ">
-<connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="E" pad="3"/>
-<connect gate="G$1" pin="S" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-<technology name="E2"/>
-<technology name="E3"/>
-</technologies>
-</device>
-<device name="K" package="POT_EVUEXK">
-<connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="E" pad="3"/>
-<connect gate="G$1" pin="S" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-<technology name="E2"/>
-<technology name="E3"/>
-</technologies>
-</device>
-<device name="L" package="POT_EVUFXL">
-<connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="E" pad="3"/>
-<connect gate="G$1" pin="S" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-<technology name="F2"/>
-<technology name="F3"/>
-</technologies>
-</device>
-<device name="M" package="POT_EVUFXM">
-<connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="E" pad="3"/>
-<connect gate="G$1" pin="S" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-<technology name="F2"/>
-<technology name="F3"/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="supply1">
 <description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
  GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
@@ -7005,6 +6411,419 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <vertex x="-1.6" y="0.5"/>
 </polygon>
 </package>
+<package name="POT_EVUFXM">
+<description>&lt;b&gt;9 mm Square Rotary Potentiometers&lt;/b&gt; Single Type with Bushing, Vertical, Snap-in&lt;p&gt;
+Source: Panasonic</description>
+<circle x="-2.5" y="4.3" radius="0.65" width="0.1016" layer="21"/>
+<circle x="0" y="0" radius="3.575" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="2.8" width="0.2032" layer="21"/>
+<circle x="2.5" y="-4.3" radius="0.65" width="0.1016" layer="21"/>
+<wire x1="5.3" y1="1.05" x2="5.3" y2="-1.05" width="0" layer="46"/>
+<wire x1="3.7" y1="-1.05" x2="3.7" y2="1.05" width="0" layer="46"/>
+<wire x1="5.3" y1="1.05" x2="3.7" y2="1.05" width="0" layer="46"/>
+<wire x1="5.3" y1="-1.05" x2="3.7" y2="-1.05" width="0" layer="46"/>
+<wire x1="-3.7" y1="1.05" x2="-3.7" y2="-1.05" width="0" layer="46"/>
+<wire x1="-5.3" y1="-1.05" x2="-5.3" y2="1.05" width="0" layer="46"/>
+<wire x1="-3.7" y1="1.05" x2="-5.3" y2="1.05" width="0" layer="46"/>
+<wire x1="-3.7" y1="-1.05" x2="-5.3" y2="-1.05" width="0" layer="46"/>
+<wire x1="-4.1" y1="5.9" x2="4.1" y2="5.9" width="0.2032" layer="21"/>
+<wire x1="4.75" y1="5.35" x2="4.75" y2="-5.85" width="0.2032" layer="51"/>
+<wire x1="4.1" y1="-6.4" x2="-4.1" y2="-6.4" width="0.2032" layer="51"/>
+<wire x1="-4.75" y1="-5.85" x2="-4.75" y2="5.35" width="0.2032" layer="51"/>
+<wire x1="-4.85" y1="0.9" x2="-5.5" y2="0.9" width="0.2032" layer="51"/>
+<wire x1="-5.5" y1="0.9" x2="-5.5" y2="-0.9" width="0.2032" layer="51"/>
+<wire x1="-5.5" y1="-0.9" x2="-4.85" y2="-0.9" width="0.2032" layer="51"/>
+<wire x1="4.85" y1="-0.9" x2="5.5" y2="-0.9" width="0.2032" layer="51"/>
+<wire x1="5.5" y1="-0.9" x2="5.5" y2="0.9" width="0.2032" layer="51"/>
+<wire x1="5.5" y1="0.9" x2="4.85" y2="0.9" width="0.2032" layer="51"/>
+<wire x1="-4.1" y1="5.35" x2="-4.75" y2="5.35" width="0.2032" layer="21"/>
+<wire x1="-4.1" y1="5.9" x2="-4.1" y2="5.35" width="0.2032" layer="21"/>
+<wire x1="-4.1" y1="-5.85" x2="-4.1" y2="-6.4" width="0.2032" layer="21"/>
+<wire x1="-4.75" y1="-5.85" x2="-4.1" y2="-5.85" width="0.2032" layer="21"/>
+<wire x1="4.1" y1="-5.85" x2="4.75" y2="-5.85" width="0.2032" layer="21"/>
+<wire x1="4.1" y1="-6.4" x2="4.1" y2="-5.85" width="0.2032" layer="21"/>
+<wire x1="4.1" y1="5.35" x2="4.1" y2="5.9" width="0.2032" layer="21"/>
+<wire x1="4.75" y1="5.35" x2="4.1" y2="5.35" width="0.2032" layer="21"/>
+<wire x1="-4.75" y1="2.65" x2="-4.75" y2="5.35" width="0.2032" layer="21"/>
+<wire x1="-4.75" y1="-5.85" x2="-4.75" y2="-2.15" width="0.2032" layer="21"/>
+<wire x1="4.75" y1="5.35" x2="4.75" y2="2.65" width="0.2032" layer="21"/>
+<wire x1="4.75" y1="-2.15" x2="4.75" y2="-5.85" width="0.2032" layer="21"/>
+<wire x1="-3.9" y1="2.05" x2="-2.75" y2="3.425" width="0.2032" layer="21" curve="-25.698073"/>
+<wire x1="2.05" y1="3.9" x2="3.9" y2="2.05" width="0.2032" layer="21" curve="-34.543485"/>
+<wire x1="-1.7" y1="3.9" x2="2.05" y2="3.9" width="0.2032" layer="21"/>
+<wire x1="-3.9" y1="2.05" x2="-3.9" y2="-2.05" width="0.2032" layer="21"/>
+<wire x1="-2.75" y1="3.425" x2="-1.7" y2="3.9" width="0.2032" layer="21" curve="80.060519"/>
+<wire x1="3.9" y1="-2.05" x2="2.75" y2="-3.425" width="0.2032" layer="21" curve="-25.698073"/>
+<wire x1="-2.05" y1="-3.9" x2="-3.9" y2="-2.05" width="0.2032" layer="21" curve="-34.543485"/>
+<wire x1="1.7" y1="-3.9" x2="-2.05" y2="-3.9" width="0.2032" layer="21"/>
+<wire x1="3.9" y1="-2.05" x2="3.9" y2="2.05" width="0.2032" layer="21"/>
+<wire x1="2.75" y1="-3.425" x2="1.7" y2="-3.9" width="0.2032" layer="21" curve="80.060519"/>
+<rectangle x1="-2.925" y1="-7.325" x2="-2.075" y2="-6.5" layer="51"/>
+<rectangle x1="-0.425" y1="-7.325" x2="0.425" y2="-6.5" layer="51"/>
+<rectangle x1="2.075" y1="-7.325" x2="2.925" y2="-6.5" layer="51"/>
+<pad name="1" x="-2.5" y="-7" drill="1.1" diameter="1.9304" rot="R270"/>
+<pad name="2" x="0" y="-7" drill="1.1" diameter="1.9304" rot="R270"/>
+<pad name="3" x="2.5" y="-7" drill="1.1" diameter="1.9304" rot="R270"/>
+<pad name="M1" x="4.5" y="0" drill="1.6" diameter="2.8" shape="square" rot="R270"/>
+<pad name="M2" x="-4.5" y="0" drill="1.6" diameter="2.8" shape="square" rot="R270"/>
+<text x="-3" y="6.5" size="1.27" layer="25">&gt;NAME</text>
+<text x="-4.5" y="-9.5" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="POT_EVUE">
+<description>&lt;b&gt;9 mm Square Rotary Potentiometers&lt;/b&gt; Horizontal, Snap-in&lt;p&gt;
+Source: Panasonic</description>
+<wire x1="-4.35" y1="4.9" x2="-2.25" y2="4.9" width="0" layer="46"/>
+<wire x1="-2.25" y1="3.3" x2="-4.35" y2="3.3" width="0" layer="46"/>
+<wire x1="-4.35" y1="4.9" x2="-4.35" y2="3.3" width="0" layer="46"/>
+<wire x1="-2.25" y1="4.9" x2="-2.25" y2="3.3" width="0" layer="46"/>
+<wire x1="-4.35" y1="-3.3" x2="-2.25" y2="-3.3" width="0" layer="46"/>
+<wire x1="-2.25" y1="-4.9" x2="-4.35" y2="-4.9" width="0" layer="46"/>
+<wire x1="-4.35" y1="-3.3" x2="-4.35" y2="-4.9" width="0" layer="46"/>
+<wire x1="-2.25" y1="-3.3" x2="-2.25" y2="-4.9" width="0" layer="46"/>
+<wire x1="-5.7" y1="4.65" x2="3.45" y2="4.65" width="0.2032" layer="51"/>
+<wire x1="3.45" y1="4.65" x2="3.45" y2="-4.65" width="0.2032" layer="21"/>
+<wire x1="3.45" y1="-4.65" x2="-5.7" y2="-4.65" width="0.2032" layer="51"/>
+<wire x1="-5.7" y1="-4.65" x2="-5.7" y2="4.65" width="0.2032" layer="21"/>
+<wire x1="3.55" y1="4.4" x2="4.55" y2="4.4" width="0.2032" layer="21"/>
+<wire x1="4.55" y1="4.4" x2="4.55" y2="2.8" width="0.2032" layer="21"/>
+<wire x1="4.55" y1="2.8" x2="3.55" y2="2.8" width="0.2032" layer="21"/>
+<wire x1="3.55" y1="-4.3" x2="4.55" y2="-4.3" width="0.2032" layer="21"/>
+<wire x1="4.55" y1="-4.3" x2="4.55" y2="-2.8" width="0.2032" layer="21"/>
+<wire x1="4.55" y1="-2.8" x2="3.55" y2="-2.8" width="0.2032" layer="21"/>
+<wire x1="4.65" y1="2.9" x2="18.45" y2="2.9" width="0.2032" layer="21"/>
+<wire x1="18.45" y1="2.9" x2="18.45" y2="-2.9" width="0.2032" layer="21"/>
+<wire x1="18.45" y1="-2.9" x2="4.65" y2="-2.9" width="0.2032" layer="21"/>
+<wire x1="18.45" y1="2.9" x2="23.45" y2="2.9" width="0.2032" layer="21"/>
+<wire x1="23.45" y1="2.9" x2="23.45" y2="-2.9" width="0.2032" layer="21"/>
+<wire x1="23.45" y1="-2.9" x2="18.55" y2="-2.9" width="0.2032" layer="21"/>
+<wire x1="23.45" y1="2.9" x2="28.45" y2="2.9" width="0.2032" layer="21"/>
+<wire x1="28.45" y1="2.9" x2="28.45" y2="-2.9" width="0.2032" layer="21"/>
+<wire x1="28.45" y1="-2.9" x2="23.55" y2="-2.9" width="0.2032" layer="21"/>
+<wire x1="28.45" y1="2.9" x2="33.45" y2="2.9" width="0.2032" layer="21"/>
+<wire x1="33.45" y1="2.9" x2="33.45" y2="-2.9" width="0.2032" layer="21"/>
+<wire x1="33.45" y1="-2.9" x2="28.55" y2="-2.9" width="0.2032" layer="21"/>
+<wire x1="-0.62" y1="4.65" x2="3.45" y2="4.65" width="0.2032" layer="21"/>
+<wire x1="3.45" y1="-4.65" x2="-0.62" y2="-4.65" width="0.2032" layer="21"/>
+<pad name="1" x="0" y="-2.5" drill="1.1" diameter="1.6764"/>
+<pad name="2" x="0" y="0" drill="1.1" diameter="1.6764"/>
+<pad name="3" x="0" y="2.5" drill="1.1" diameter="1.6764"/>
+<pad name="M1" x="-3.3" y="4.1" drill="1.6" diameter="2.8" shape="square"/>
+<pad name="M2" x="-3.3" y="-4.1" drill="1.6" diameter="2.8" shape="square"/>
+<text x="-5.8112" y="5.759" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.8112" y="-7.537" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="POT_EVUEXXJ">
+<description>&lt;b&gt;9 mm Square Rotary Potentiometers&lt;/b&gt; Single Type with Bushing, Horizontal, Snap-in&lt;p&gt;
+Source: Panasonic</description>
+<wire x1="-3.25" y1="4.9" x2="-1.15" y2="4.9" width="0" layer="46"/>
+<wire x1="-1.15" y1="3.3" x2="-3.25" y2="3.3" width="0" layer="46"/>
+<wire x1="-3.25" y1="4.9" x2="-3.25" y2="3.3" width="0" layer="46"/>
+<wire x1="-1.15" y1="4.9" x2="-1.15" y2="3.3" width="0" layer="46"/>
+<wire x1="-3.25" y1="-3.3" x2="-1.15" y2="-3.3" width="0" layer="46"/>
+<wire x1="-1.15" y1="-4.9" x2="-3.25" y2="-4.9" width="0" layer="46"/>
+<wire x1="-3.25" y1="-3.3" x2="-3.25" y2="-4.9" width="0" layer="46"/>
+<wire x1="-1.15" y1="-3.3" x2="-1.15" y2="-4.9" width="0" layer="46"/>
+<wire x1="-5.7" y1="4.65" x2="5.2" y2="4.65" width="0.2032" layer="51"/>
+<wire x1="5.2" y1="4.65" x2="5.2" y2="-4.65" width="0.2032" layer="21"/>
+<wire x1="5.2" y1="-4.65" x2="-5.7" y2="-4.65" width="0.2032" layer="51"/>
+<wire x1="-5.7" y1="-4.65" x2="-5.7" y2="4.65" width="0.2032" layer="21"/>
+<wire x1="10.3" y1="2.9" x2="18.45" y2="2.9" width="0.2032" layer="21"/>
+<wire x1="18.45" y1="2.9" x2="18.45" y2="-2.9" width="0.2032" layer="21"/>
+<wire x1="18.45" y1="-2.9" x2="10.3" y2="-2.9" width="0.2032" layer="21"/>
+<wire x1="18.45" y1="2.9" x2="23.45" y2="2.9" width="0.2032" layer="21"/>
+<wire x1="23.45" y1="2.9" x2="23.45" y2="-2.9" width="0.2032" layer="21"/>
+<wire x1="23.45" y1="-2.9" x2="18.55" y2="-2.9" width="0.2032" layer="21"/>
+<wire x1="23.45" y1="2.9" x2="28.45" y2="2.9" width="0.2032" layer="21"/>
+<wire x1="28.45" y1="2.9" x2="28.45" y2="-2.9" width="0.2032" layer="21"/>
+<wire x1="28.45" y1="-2.9" x2="23.55" y2="-2.9" width="0.2032" layer="21"/>
+<wire x1="28.45" y1="2.9" x2="33.45" y2="2.9" width="0.2032" layer="21"/>
+<wire x1="33.45" y1="2.9" x2="33.45" y2="-2.9" width="0.2032" layer="21"/>
+<wire x1="33.45" y1="-2.9" x2="28.55" y2="-2.9" width="0.2032" layer="21"/>
+<wire x1="-0.12" y1="4.65" x2="5.2" y2="4.65" width="0.2032" layer="21"/>
+<wire x1="5.2" y1="-4.65" x2="-0.12" y2="-4.65" width="0.2032" layer="21"/>
+<wire x1="-2.2" y1="8.8" x2="-2.2" y2="-6.6" width="0" layer="51"/>
+<wire x1="5.3" y1="5" x2="5.3" y2="-5" width="0" layer="20"/>
+<wire x1="5.3" y1="3.9" x2="10.2" y2="3.9" width="0.2032" layer="21"/>
+<wire x1="10.2" y1="3.9" x2="10.2" y2="-3.9" width="0.2032" layer="21"/>
+<wire x1="10.2" y1="-3.9" x2="5.3" y2="-3.9" width="0.2032" layer="21"/>
+<pad name="1" x="0" y="-2.5" drill="1.1" diameter="1.6764"/>
+<pad name="2" x="0" y="0" drill="1.1" diameter="1.6764"/>
+<pad name="3" x="0" y="2.5" drill="1.1" diameter="1.6764"/>
+<pad name="M1" x="-2.2" y="4.1" drill="1.6" diameter="2.8"/>
+<pad name="M2" x="-2.2" y="-4.1" drill="1.6" diameter="2.8"/>
+<text x="-5.8112" y="5.759" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.8112" y="-7.537" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="POT_EVUEXK">
+<description>&lt;b&gt;9 mm Square Rotary Potentiometers&lt;/b&gt; Single Type with Bushing, Horizontal, Snap-in&lt;p&gt;
+Source: Panasonic</description>
+<wire x1="-3.25" y1="4.9" x2="-1.15" y2="4.9" width="0" layer="46"/>
+<wire x1="-1.15" y1="3.3" x2="-3.25" y2="3.3" width="0" layer="46"/>
+<wire x1="-3.25" y1="4.9" x2="-3.25" y2="3.3" width="0" layer="46"/>
+<wire x1="-1.15" y1="4.9" x2="-1.15" y2="3.3" width="0" layer="46"/>
+<wire x1="-3.25" y1="-3.3" x2="-1.15" y2="-3.3" width="0" layer="46"/>
+<wire x1="-1.15" y1="-4.9" x2="-3.25" y2="-4.9" width="0" layer="46"/>
+<wire x1="-3.25" y1="-3.3" x2="-3.25" y2="-4.9" width="0" layer="46"/>
+<wire x1="-1.15" y1="-3.3" x2="-1.15" y2="-4.9" width="0" layer="46"/>
+<wire x1="-5.7" y1="4.65" x2="5.2" y2="4.65" width="0.2032" layer="51"/>
+<wire x1="5.2" y1="4.65" x2="5.2" y2="-4.65" width="0.2032" layer="21"/>
+<wire x1="5.2" y1="-4.65" x2="-5.7" y2="-4.65" width="0.2032" layer="51"/>
+<wire x1="-5.7" y1="-4.65" x2="-5.7" y2="4.65" width="0.2032" layer="21"/>
+<wire x1="10.3" y1="2.9" x2="18.45" y2="2.9" width="0.2032" layer="21"/>
+<wire x1="18.45" y1="2.9" x2="18.45" y2="-2.9" width="0.2032" layer="21"/>
+<wire x1="18.45" y1="-2.9" x2="10.3" y2="-2.9" width="0.2032" layer="21"/>
+<wire x1="18.45" y1="2.9" x2="23.45" y2="2.9" width="0.2032" layer="21"/>
+<wire x1="23.45" y1="2.9" x2="23.45" y2="-2.9" width="0.2032" layer="21"/>
+<wire x1="23.45" y1="-2.9" x2="18.55" y2="-2.9" width="0.2032" layer="21"/>
+<wire x1="23.45" y1="2.9" x2="28.45" y2="2.9" width="0.2032" layer="21"/>
+<wire x1="28.45" y1="2.9" x2="28.45" y2="-2.9" width="0.2032" layer="21"/>
+<wire x1="28.45" y1="-2.9" x2="23.55" y2="-2.9" width="0.2032" layer="21"/>
+<wire x1="28.45" y1="2.9" x2="33.45" y2="2.9" width="0.2032" layer="21"/>
+<wire x1="33.45" y1="2.9" x2="33.45" y2="-2.9" width="0.2032" layer="21"/>
+<wire x1="33.45" y1="-2.9" x2="28.55" y2="-2.9" width="0.2032" layer="21"/>
+<wire x1="-0.12" y1="4.65" x2="5.2" y2="4.65" width="0.2032" layer="21"/>
+<wire x1="5.2" y1="-4.65" x2="-0.12" y2="-4.65" width="0.2032" layer="21"/>
+<wire x1="-2.2" y1="8.8" x2="-2.2" y2="-6.6" width="0" layer="51"/>
+<wire x1="5.3" y1="5" x2="5.3" y2="-5" width="0" layer="20"/>
+<wire x1="5.3" y1="3.9" x2="10.2" y2="3.9" width="0.2032" layer="21"/>
+<wire x1="10.2" y1="3.9" x2="10.2" y2="-3.9" width="0.2032" layer="21"/>
+<wire x1="10.2" y1="-3.9" x2="5.3" y2="-3.9" width="0.2032" layer="21"/>
+<pad name="1" x="0" y="-2.5" drill="1.1" diameter="1.6764"/>
+<pad name="2" x="0" y="0" drill="1.1" diameter="1.6764"/>
+<pad name="3" x="0" y="2.5" drill="1.1" diameter="1.6764"/>
+<pad name="M1" x="-2.2" y="4.1" drill="1.6" diameter="2.8"/>
+<pad name="M2" x="-2.2" y="-4.1" drill="1.6" diameter="2.8"/>
+<text x="-5.8112" y="5.759" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.8112" y="-7.537" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="POT_EVUF">
+<description>&lt;b&gt;9 mm Square Rotary Potentiometers&lt;/b&gt; Vertical, Snap-in&lt;p&gt;
+Source: Panasonic</description>
+<circle x="-2.5" y="-4.6" radius="0.65" width="0.1016" layer="21"/>
+<circle x="2.5" y="-4.6" radius="0.65" width="0.1016" layer="21"/>
+<circle x="-2.5" y="4.3" radius="0.65" width="0.1016" layer="21"/>
+<circle x="2.5" y="4.3" radius="0.65" width="0.1016" layer="21"/>
+<circle x="0" y="0" radius="2.9" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="2.3501" width="0.2032" layer="21"/>
+<wire x1="5.3" y1="1.05" x2="5.3" y2="-1.05" width="0" layer="46"/>
+<wire x1="3.7" y1="-1.05" x2="3.7" y2="1.05" width="0" layer="46"/>
+<wire x1="5.3" y1="1.05" x2="3.7" y2="1.05" width="0" layer="46"/>
+<wire x1="5.3" y1="-1.05" x2="3.7" y2="-1.05" width="0" layer="46"/>
+<wire x1="-3.7" y1="1.05" x2="-3.7" y2="-1.05" width="0" layer="46"/>
+<wire x1="-5.3" y1="-1.05" x2="-5.3" y2="1.05" width="0" layer="46"/>
+<wire x1="-3.7" y1="1.05" x2="-5.3" y2="1.05" width="0" layer="46"/>
+<wire x1="-3.7" y1="-1.05" x2="-5.3" y2="-1.05" width="0" layer="46"/>
+<wire x1="-4.1" y1="5.4" x2="4.1" y2="5.4" width="0.2032" layer="21"/>
+<wire x1="4.65" y1="4.85" x2="4.65" y2="-5.35" width="0.2032" layer="51"/>
+<wire x1="4.1" y1="-5.9" x2="-4.1" y2="-5.9" width="0.2032" layer="21"/>
+<wire x1="-4.65" y1="-5.35" x2="-4.65" y2="4.85" width="0.2032" layer="51"/>
+<wire x1="-4.75" y1="0.9" x2="-5.5" y2="0.9" width="0.2032" layer="51"/>
+<wire x1="-5.5" y1="0.9" x2="-5.5" y2="-0.9" width="0.2032" layer="51"/>
+<wire x1="-5.5" y1="-0.9" x2="-4.75" y2="-0.9" width="0.2032" layer="51"/>
+<wire x1="4.75" y1="-0.9" x2="5.5" y2="-0.9" width="0.2032" layer="51"/>
+<wire x1="5.5" y1="-0.9" x2="5.5" y2="0.9" width="0.2032" layer="51"/>
+<wire x1="5.5" y1="0.9" x2="4.75" y2="0.9" width="0.2032" layer="51"/>
+<wire x1="-4.1" y1="4.85" x2="-4.65" y2="4.85" width="0.2032" layer="21"/>
+<wire x1="-4.1" y1="5.4" x2="-4.1" y2="4.85" width="0.2032" layer="21"/>
+<wire x1="-4.1" y1="-5.35" x2="-4.1" y2="-5.9" width="0.2032" layer="21"/>
+<wire x1="-4.65" y1="-5.35" x2="-4.1" y2="-5.35" width="0.2032" layer="21"/>
+<wire x1="4.1" y1="-5.35" x2="4.65" y2="-5.35" width="0.2032" layer="21"/>
+<wire x1="4.1" y1="-5.9" x2="4.1" y2="-5.35" width="0.2032" layer="21"/>
+<wire x1="4.1" y1="4.85" x2="4.1" y2="5.4" width="0.2032" layer="21"/>
+<wire x1="4.65" y1="4.85" x2="4.1" y2="4.85" width="0.2032" layer="21"/>
+<wire x1="-4.65" y1="2.65" x2="-4.65" y2="4.85" width="0.2032" layer="21"/>
+<wire x1="-4.65" y1="-5.35" x2="-4.65" y2="-2.15" width="0.2032" layer="21"/>
+<wire x1="4.65" y1="4.85" x2="4.65" y2="2.65" width="0.2032" layer="21"/>
+<wire x1="4.65" y1="-2.15" x2="4.65" y2="-5.35" width="0.2032" layer="21"/>
+<rectangle x1="-2.925" y1="-7.325" x2="-2.075" y2="-6" layer="51"/>
+<rectangle x1="-0.425" y1="-7.325" x2="0.425" y2="-6" layer="51"/>
+<rectangle x1="2.075" y1="-7.325" x2="2.925" y2="-6" layer="51"/>
+<pad name="1" x="-2.5" y="-7" drill="1.1" diameter="1.9304" rot="R270"/>
+<pad name="2" x="0" y="-7" drill="1.1" diameter="1.9304" rot="R270"/>
+<pad name="3" x="2.5" y="-7" drill="1.1" diameter="1.9304" rot="R270"/>
+<pad name="M1" x="4.6" y="0" drill="2.54" diameter="3.81" rot="R270"/>
+<pad name="M2" x="-4.7" y="0" drill="2.54" diameter="3.81" rot="R270"/>
+<text x="-3" y="6" size="1.27" layer="25">&gt;NAME</text>
+<text x="-4.5" y="-9.5" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="POT_EVUFXJ">
+<description>&lt;b&gt;9 mm Square Rotary Potentiometers&lt;/b&gt; Single Type with Bushing, Vertical, Snap-in&lt;p&gt;
+Source: Panasonic</description>
+<circle x="-2.5" y="4.3" radius="0.65" width="0.1016" layer="21"/>
+<circle x="0" y="0" radius="3.575" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="2.8" width="0.2032" layer="21"/>
+<circle x="2.5" y="-4.3" radius="0.65" width="0.1016" layer="21"/>
+<wire x1="5.3" y1="1.05" x2="5.3" y2="-1.05" width="0" layer="46"/>
+<wire x1="3.7" y1="-1.05" x2="3.7" y2="1.05" width="0" layer="46"/>
+<wire x1="5.3" y1="1.05" x2="3.7" y2="1.05" width="0" layer="46"/>
+<wire x1="5.3" y1="-1.05" x2="3.7" y2="-1.05" width="0" layer="46"/>
+<wire x1="-3.7" y1="1.05" x2="-3.7" y2="-1.05" width="0" layer="46"/>
+<wire x1="-5.3" y1="-1.05" x2="-5.3" y2="1.05" width="0" layer="46"/>
+<wire x1="-3.7" y1="1.05" x2="-5.3" y2="1.05" width="0" layer="46"/>
+<wire x1="-3.7" y1="-1.05" x2="-5.3" y2="-1.05" width="0" layer="46"/>
+<wire x1="-4.1" y1="5.9" x2="4.1" y2="5.9" width="0.2032" layer="21"/>
+<wire x1="4.75" y1="5.35" x2="4.75" y2="-5.85" width="0.2032" layer="51"/>
+<wire x1="4.1" y1="-6.4" x2="-4.1" y2="-6.4" width="0.2032" layer="51"/>
+<wire x1="-4.75" y1="-5.85" x2="-4.75" y2="5.35" width="0.2032" layer="51"/>
+<wire x1="-4.85" y1="0.9" x2="-5.5" y2="0.9" width="0.2032" layer="51"/>
+<wire x1="-5.5" y1="0.9" x2="-5.5" y2="-0.9" width="0.2032" layer="51"/>
+<wire x1="-5.5" y1="-0.9" x2="-4.85" y2="-0.9" width="0.2032" layer="51"/>
+<wire x1="4.85" y1="-0.9" x2="5.5" y2="-0.9" width="0.2032" layer="51"/>
+<wire x1="5.5" y1="-0.9" x2="5.5" y2="0.9" width="0.2032" layer="51"/>
+<wire x1="5.5" y1="0.9" x2="4.85" y2="0.9" width="0.2032" layer="51"/>
+<wire x1="-4.1" y1="5.35" x2="-4.75" y2="5.35" width="0.2032" layer="21"/>
+<wire x1="-4.1" y1="5.9" x2="-4.1" y2="5.35" width="0.2032" layer="21"/>
+<wire x1="-4.1" y1="-5.85" x2="-4.1" y2="-6.4" width="0.2032" layer="21"/>
+<wire x1="-4.75" y1="-5.85" x2="-4.1" y2="-5.85" width="0.2032" layer="21"/>
+<wire x1="4.1" y1="-5.85" x2="4.75" y2="-5.85" width="0.2032" layer="21"/>
+<wire x1="4.1" y1="-6.4" x2="4.1" y2="-5.85" width="0.2032" layer="21"/>
+<wire x1="4.1" y1="5.35" x2="4.1" y2="5.9" width="0.2032" layer="21"/>
+<wire x1="4.75" y1="5.35" x2="4.1" y2="5.35" width="0.2032" layer="21"/>
+<wire x1="-4.75" y1="2.65" x2="-4.75" y2="5.35" width="0.2032" layer="21"/>
+<wire x1="-4.75" y1="-5.85" x2="-4.75" y2="-2.15" width="0.2032" layer="21"/>
+<wire x1="4.75" y1="5.35" x2="4.75" y2="2.65" width="0.2032" layer="21"/>
+<wire x1="4.75" y1="-2.15" x2="4.75" y2="-5.85" width="0.2032" layer="21"/>
+<wire x1="-3.9" y1="2.05" x2="-2.75" y2="3.425" width="0.2032" layer="21" curve="-25.698073"/>
+<wire x1="2.05" y1="3.9" x2="3.9" y2="2.05" width="0.2032" layer="21" curve="-34.543485"/>
+<wire x1="-1.7" y1="3.9" x2="2.05" y2="3.9" width="0.2032" layer="21"/>
+<wire x1="-3.9" y1="2.05" x2="-3.9" y2="-2.05" width="0.2032" layer="21"/>
+<wire x1="-2.75" y1="3.425" x2="-1.7" y2="3.9" width="0.2032" layer="21" curve="80.060519"/>
+<wire x1="3.9" y1="-2.05" x2="2.75" y2="-3.425" width="0.2032" layer="21" curve="-25.698073"/>
+<wire x1="-2.05" y1="-3.9" x2="-3.9" y2="-2.05" width="0.2032" layer="21" curve="-34.543485"/>
+<wire x1="1.7" y1="-3.9" x2="-2.05" y2="-3.9" width="0.2032" layer="21"/>
+<wire x1="3.9" y1="-2.05" x2="3.9" y2="2.05" width="0.2032" layer="21"/>
+<wire x1="2.75" y1="-3.425" x2="1.7" y2="-3.9" width="0.2032" layer="21" curve="80.060519"/>
+<rectangle x1="-2.925" y1="-7.325" x2="-2.075" y2="-6.5" layer="51"/>
+<rectangle x1="-0.425" y1="-7.325" x2="0.425" y2="-6.5" layer="51"/>
+<rectangle x1="2.075" y1="-7.325" x2="2.925" y2="-6.5" layer="51"/>
+<pad name="1" x="-2.5" y="-7" drill="1.1" diameter="1.6764" rot="R270"/>
+<pad name="2" x="0" y="-7" drill="1.1" diameter="1.6764" rot="R270"/>
+<pad name="3" x="2.5" y="-7" drill="1.1" diameter="1.6764" rot="R270"/>
+<pad name="M1" x="4.5" y="0" drill="1.6" diameter="2.8" shape="square" rot="R270"/>
+<pad name="M2" x="-4.5" y="0" drill="1.6" diameter="2.8" shape="square" rot="R270"/>
+<text x="-3" y="6.5" size="1.27" layer="25">&gt;NAME</text>
+<text x="-4.5" y="-9.5" size="1.27" layer="27">&gt;VALUE</text>
+<hole x="0" y="3.5" drill="2"/>
+<hole x="0" y="-4" drill="2"/>
+</package>
+<package name="POT_EVUFXK">
+<description>&lt;b&gt;9 mm Square Rotary Potentiometers&lt;/b&gt; Single Type with Bushing, Vertical, Snap-in&lt;p&gt;
+Source: Panasonic</description>
+<circle x="-2.5" y="4.3" radius="0.65" width="0.1016" layer="21"/>
+<circle x="0" y="0" radius="3.575" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="2.8" width="0.2032" layer="21"/>
+<circle x="2.5" y="-4.3" radius="0.65" width="0.1016" layer="21"/>
+<wire x1="5.3" y1="1.05" x2="5.3" y2="-1.05" width="0" layer="46"/>
+<wire x1="3.7" y1="-1.05" x2="3.7" y2="1.05" width="0" layer="46"/>
+<wire x1="5.3" y1="1.05" x2="3.7" y2="1.05" width="0" layer="46"/>
+<wire x1="5.3" y1="-1.05" x2="3.7" y2="-1.05" width="0" layer="46"/>
+<wire x1="-3.7" y1="1.05" x2="-3.7" y2="-1.05" width="0" layer="46"/>
+<wire x1="-5.3" y1="-1.05" x2="-5.3" y2="1.05" width="0" layer="46"/>
+<wire x1="-3.7" y1="1.05" x2="-5.3" y2="1.05" width="0" layer="46"/>
+<wire x1="-3.7" y1="-1.05" x2="-5.3" y2="-1.05" width="0" layer="46"/>
+<wire x1="-4.1" y1="5.9" x2="4.1" y2="5.9" width="0.2032" layer="21"/>
+<wire x1="4.75" y1="5.35" x2="4.75" y2="-5.85" width="0.2032" layer="51"/>
+<wire x1="4.1" y1="-6.4" x2="-4.1" y2="-6.4" width="0.2032" layer="51"/>
+<wire x1="-4.75" y1="-5.85" x2="-4.75" y2="5.35" width="0.2032" layer="51"/>
+<wire x1="-4.85" y1="0.9" x2="-5.5" y2="0.9" width="0.2032" layer="51"/>
+<wire x1="-5.5" y1="0.9" x2="-5.5" y2="-0.9" width="0.2032" layer="51"/>
+<wire x1="-5.5" y1="-0.9" x2="-4.85" y2="-0.9" width="0.2032" layer="51"/>
+<wire x1="4.85" y1="-0.9" x2="5.5" y2="-0.9" width="0.2032" layer="51"/>
+<wire x1="5.5" y1="-0.9" x2="5.5" y2="0.9" width="0.2032" layer="51"/>
+<wire x1="5.5" y1="0.9" x2="4.85" y2="0.9" width="0.2032" layer="51"/>
+<wire x1="-4.1" y1="5.35" x2="-4.75" y2="5.35" width="0.2032" layer="21"/>
+<wire x1="-4.1" y1="5.9" x2="-4.1" y2="5.35" width="0.2032" layer="21"/>
+<wire x1="-4.1" y1="-5.85" x2="-4.1" y2="-6.4" width="0.2032" layer="21"/>
+<wire x1="-4.75" y1="-5.85" x2="-4.1" y2="-5.85" width="0.2032" layer="21"/>
+<wire x1="4.1" y1="-5.85" x2="4.75" y2="-5.85" width="0.2032" layer="21"/>
+<wire x1="4.1" y1="-6.4" x2="4.1" y2="-5.85" width="0.2032" layer="21"/>
+<wire x1="4.1" y1="5.35" x2="4.1" y2="5.9" width="0.2032" layer="21"/>
+<wire x1="4.75" y1="5.35" x2="4.1" y2="5.35" width="0.2032" layer="21"/>
+<wire x1="-4.75" y1="2.65" x2="-4.75" y2="5.35" width="0.2032" layer="21"/>
+<wire x1="-4.75" y1="-5.85" x2="-4.75" y2="-2.15" width="0.2032" layer="21"/>
+<wire x1="4.75" y1="5.35" x2="4.75" y2="2.65" width="0.2032" layer="21"/>
+<wire x1="4.75" y1="-2.15" x2="4.75" y2="-5.85" width="0.2032" layer="21"/>
+<wire x1="-3.9" y1="2.05" x2="-2.75" y2="3.425" width="0.2032" layer="21" curve="-25.698073"/>
+<wire x1="2.05" y1="3.9" x2="3.9" y2="2.05" width="0.2032" layer="21" curve="-34.543485"/>
+<wire x1="-1.7" y1="3.9" x2="2.05" y2="3.9" width="0.2032" layer="21"/>
+<wire x1="-3.9" y1="2.05" x2="-3.9" y2="-2.05" width="0.2032" layer="21"/>
+<wire x1="-2.75" y1="3.425" x2="-1.7" y2="3.9" width="0.2032" layer="21" curve="80.060519"/>
+<wire x1="3.9" y1="-2.05" x2="2.75" y2="-3.425" width="0.2032" layer="21" curve="-25.698073"/>
+<wire x1="-2.05" y1="-3.9" x2="-3.9" y2="-2.05" width="0.2032" layer="21" curve="-34.543485"/>
+<wire x1="1.7" y1="-3.9" x2="-2.05" y2="-3.9" width="0.2032" layer="21"/>
+<wire x1="3.9" y1="-2.05" x2="3.9" y2="2.05" width="0.2032" layer="21"/>
+<wire x1="2.75" y1="-3.425" x2="1.7" y2="-3.9" width="0.2032" layer="21" curve="80.060519"/>
+<rectangle x1="-2.925" y1="-7.325" x2="-2.075" y2="-6.5" layer="51"/>
+<rectangle x1="-0.425" y1="-7.325" x2="0.425" y2="-6.5" layer="51"/>
+<rectangle x1="2.075" y1="-7.325" x2="2.925" y2="-6.5" layer="51"/>
+<pad name="1" x="-2.5" y="-7" drill="1.1" diameter="1.6764" rot="R270"/>
+<pad name="2" x="0" y="-7" drill="1.1" diameter="1.6764" rot="R270"/>
+<pad name="3" x="2.5" y="-7" drill="1.1" diameter="1.6764" rot="R270"/>
+<pad name="M1" x="4.5" y="0" drill="1.6" diameter="2.8" shape="square" rot="R270"/>
+<pad name="M2" x="-4.5" y="0" drill="1.6" diameter="2.8" shape="square" rot="R270"/>
+<text x="-3" y="6.5" size="1.27" layer="25">&gt;NAME</text>
+<text x="-4.5" y="-9.5" size="1.27" layer="27">&gt;VALUE</text>
+<hole x="0" y="3.5" drill="2"/>
+<hole x="0" y="-4" drill="2"/>
+</package>
+<package name="POT_EVUFXL">
+<description>&lt;b&gt;9 mm Square Rotary Potentiometers&lt;/b&gt; Single Type with Bushing, Vertical, Snap-in&lt;p&gt;
+Source: Panasonic</description>
+<circle x="-2.5" y="4.3" radius="0.65" width="0.1016" layer="21"/>
+<circle x="0" y="0" radius="3.575" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="2.8" width="0.2032" layer="21"/>
+<circle x="2.5" y="-4.3" radius="0.65" width="0.1016" layer="21"/>
+<wire x1="5.3" y1="1.05" x2="5.3" y2="-1.05" width="0" layer="46"/>
+<wire x1="3.7" y1="-1.05" x2="3.7" y2="1.05" width="0" layer="46"/>
+<wire x1="5.3" y1="1.05" x2="3.7" y2="1.05" width="0" layer="46"/>
+<wire x1="5.3" y1="-1.05" x2="3.7" y2="-1.05" width="0" layer="46"/>
+<wire x1="-3.7" y1="1.05" x2="-3.7" y2="-1.05" width="0" layer="46"/>
+<wire x1="-5.3" y1="-1.05" x2="-5.3" y2="1.05" width="0" layer="46"/>
+<wire x1="-3.7" y1="1.05" x2="-5.3" y2="1.05" width="0" layer="46"/>
+<wire x1="-3.7" y1="-1.05" x2="-5.3" y2="-1.05" width="0" layer="46"/>
+<wire x1="-4.1" y1="5.9" x2="4.1" y2="5.9" width="0.2032" layer="21"/>
+<wire x1="4.75" y1="5.35" x2="4.75" y2="-5.85" width="0.2032" layer="51"/>
+<wire x1="4.1" y1="-6.4" x2="-4.1" y2="-6.4" width="0.2032" layer="51"/>
+<wire x1="-4.75" y1="-5.85" x2="-4.75" y2="5.35" width="0.2032" layer="51"/>
+<wire x1="-4.85" y1="0.9" x2="-5.5" y2="0.9" width="0.2032" layer="51"/>
+<wire x1="-5.5" y1="0.9" x2="-5.5" y2="-0.9" width="0.2032" layer="51"/>
+<wire x1="-5.5" y1="-0.9" x2="-4.85" y2="-0.9" width="0.2032" layer="51"/>
+<wire x1="4.85" y1="-0.9" x2="5.5" y2="-0.9" width="0.2032" layer="51"/>
+<wire x1="5.5" y1="-0.9" x2="5.5" y2="0.9" width="0.2032" layer="51"/>
+<wire x1="5.5" y1="0.9" x2="4.85" y2="0.9" width="0.2032" layer="51"/>
+<wire x1="-4.1" y1="5.35" x2="-4.75" y2="5.35" width="0.2032" layer="21"/>
+<wire x1="-4.1" y1="5.9" x2="-4.1" y2="5.35" width="0.2032" layer="21"/>
+<wire x1="-4.1" y1="-5.85" x2="-4.1" y2="-6.4" width="0.2032" layer="21"/>
+<wire x1="-4.75" y1="-5.85" x2="-4.1" y2="-5.85" width="0.2032" layer="21"/>
+<wire x1="4.1" y1="-5.85" x2="4.75" y2="-5.85" width="0.2032" layer="21"/>
+<wire x1="4.1" y1="-6.4" x2="4.1" y2="-5.85" width="0.2032" layer="21"/>
+<wire x1="4.1" y1="5.35" x2="4.1" y2="5.9" width="0.2032" layer="21"/>
+<wire x1="4.75" y1="5.35" x2="4.1" y2="5.35" width="0.2032" layer="21"/>
+<wire x1="-4.75" y1="2.65" x2="-4.75" y2="5.35" width="0.2032" layer="21"/>
+<wire x1="-4.75" y1="-5.85" x2="-4.75" y2="-2.15" width="0.2032" layer="21"/>
+<wire x1="4.75" y1="5.35" x2="4.75" y2="2.65" width="0.2032" layer="21"/>
+<wire x1="4.75" y1="-2.15" x2="4.75" y2="-5.85" width="0.2032" layer="21"/>
+<wire x1="-3.9" y1="2.05" x2="-2.75" y2="3.425" width="0.2032" layer="21" curve="-25.698073"/>
+<wire x1="2.05" y1="3.9" x2="3.9" y2="2.05" width="0.2032" layer="21" curve="-34.543485"/>
+<wire x1="-1.7" y1="3.9" x2="2.05" y2="3.9" width="0.2032" layer="21"/>
+<wire x1="-3.9" y1="2.05" x2="-3.9" y2="-2.05" width="0.2032" layer="21"/>
+<wire x1="-2.75" y1="3.425" x2="-1.7" y2="3.9" width="0.2032" layer="21" curve="80.060519"/>
+<wire x1="3.9" y1="-2.05" x2="2.75" y2="-3.425" width="0.2032" layer="21" curve="-25.698073"/>
+<wire x1="-2.05" y1="-3.9" x2="-3.9" y2="-2.05" width="0.2032" layer="21" curve="-34.543485"/>
+<wire x1="1.7" y1="-3.9" x2="-2.05" y2="-3.9" width="0.2032" layer="21"/>
+<wire x1="3.9" y1="-2.05" x2="3.9" y2="2.05" width="0.2032" layer="21"/>
+<wire x1="2.75" y1="-3.425" x2="1.7" y2="-3.9" width="0.2032" layer="21" curve="80.060519"/>
+<rectangle x1="-2.925" y1="-7.325" x2="-2.075" y2="-6.5" layer="51"/>
+<rectangle x1="-0.425" y1="-7.325" x2="0.425" y2="-6.5" layer="51"/>
+<rectangle x1="2.075" y1="-7.325" x2="2.925" y2="-6.5" layer="51"/>
+<pad name="1" x="-2.5" y="-7" drill="1.1" diameter="1.6764" rot="R270"/>
+<pad name="2" x="0" y="-7" drill="1.1" diameter="1.6764" rot="R270"/>
+<pad name="3" x="2.5" y="-7" drill="1.1" diameter="1.6764" rot="R270"/>
+<pad name="M1" x="4.5" y="0" drill="1.6" diameter="2.8" shape="square" rot="R270"/>
+<pad name="M2" x="-4.5" y="0" drill="1.6" diameter="2.8" shape="square" rot="R270"/>
+<text x="-3" y="6.5" size="1.27" layer="25">&gt;NAME</text>
+<text x="-4.5" y="-9.5" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="R-EU">
@@ -7040,6 +6859,30 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <vertex x="-2.921" y="-2.413"/>
 <vertex x="-2.413" y="-2.921"/>
 </polygon>
+</symbol>
+<symbol name="POT_POT_US-">
+<wire x1="0" y1="-5.08" x2="0" y2="-4.572" width="0.1524" layer="94"/>
+<wire x1="0" y1="-4.572" x2="-1.016" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-3.81" x2="1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="-1.016" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.016" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="1.27" x2="1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="-1.016" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="3.81" x2="0" y2="4.572" width="0.254" layer="94"/>
+<wire x1="0" y1="4.572" x2="0" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="1.27" y2="0" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="-1.27" width="0.2032" layer="94"/>
+<wire x1="2.032" y1="-4.699" x2="2.032" y2="-2.159" width="0.1524" layer="94"/>
+<wire x1="2.032" y1="-2.159" x2="2.667" y2="-3.429" width="0.1524" layer="94"/>
+<wire x1="2.667" y1="-3.429" x2="1.397" y2="-3.429" width="0.1524" layer="94"/>
+<wire x1="1.397" y1="-3.429" x2="2.032" y2="-2.159" width="0.1524" layer="94"/>
+<pin name="A" x="0" y="-7.62" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="E" x="0" y="7.62" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="S" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="-5.08" y="-2.54" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -7915,6 +7758,155 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </device>
 </devices>
 </deviceset>
+<deviceset name="POT_US-EVU" prefix="R">
+<description>&lt;b&gt;9 mm Square Rotary Potentiometers&lt;/b&gt;&lt;p&gt;
+Source: Panasonic</description>
+<gates>
+<gate name="G$1" symbol="POT_POT_US-" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="POT_EVUE">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="E" pad="3"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+<technology name="E20"/>
+<technology name="E21"/>
+<technology name="E2A"/>
+<technology name="E30"/>
+<technology name="E31"/>
+<technology name="E3A"/>
+</technologies>
+</device>
+<device name="5" package="POT_EVUEXXJ">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="E" pad="3"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+<technology name="E2"/>
+<technology name="E3"/>
+</technologies>
+</device>
+<device name="7" package="POT_EVUEXK">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="E" pad="3"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+<technology name="E2"/>
+<technology name="E3"/>
+</technologies>
+</device>
+<device name="A" package="POT_EVUF">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="E" pad="3"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+<technology name="F2"/>
+<technology name="F3"/>
+</technologies>
+</device>
+<device name="F2J" package="POT_EVUFXJ">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="E" pad="3"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="F2K" package="POT_EVUFXK">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="E" pad="3"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="F3J" package="POT_EVUFXJ">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="E" pad="3"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="F3K" package="POT_EVUFXK">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="E" pad="3"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="J" package="POT_EVUEXXJ">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="E" pad="3"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+<technology name="E2"/>
+<technology name="E3"/>
+</technologies>
+</device>
+<device name="K" package="POT_EVUEXK">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="E" pad="3"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+<technology name="E2"/>
+<technology name="E3"/>
+</technologies>
+</device>
+<device name="L" package="POT_EVUFXL">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="E" pad="3"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+<technology name="F2"/>
+<technology name="F3"/>
+</technologies>
+</device>
+<device name="M" package="POT_EVUFXM">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="E" pad="3"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+<technology name="F2"/>
+<technology name="F3"/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -7945,11 +7937,11 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="D3" library="diode" deviceset="1N4148" device="DO35-10"/>
 <part name="D4" library="diode" deviceset="1N4148" device="DO35-10"/>
 <part name="PRESET1" library="dp_devices" deviceset="TRIMMER" device="-3306F"/>
-<part name="R13" library="4009dist_PWM3_v1" deviceset="POT_US-EVU" device="M" technology="F2" value="POT_US-EVUF2M"/>
+<part name="R13" library="studioalgorhythmics_parts" deviceset="POT_US-EVU" device="M" technology="F2" value="POT_US-EVUF2M"/>
 <part name="PRESET2" library="dp_devices" deviceset="TRIMMER" device="-3306F"/>
 <part name="PRESET3" library="dp_devices" deviceset="TRIMMER" device="-3306F"/>
 <part name="PRESET4" library="dp_devices" deviceset="TRIMMER" device="-3306F"/>
-<part name="R14" library="4009dist_PWM3_v1" deviceset="POT_US-EVU" device="M" technology="F2" value="POT_US-EVUF2M"/>
+<part name="R14" library="studioalgorhythmics_parts" deviceset="POT_US-EVU" device="M" technology="F2" value="POT_US-EVUF2M"/>
 <part name="IC2" library="linear" deviceset="78*" device="T" technology="05"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="supply2" deviceset="+9V" device=""/>

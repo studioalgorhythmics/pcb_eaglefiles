@@ -1700,12 +1700,12 @@ design rules under a new name.</description>
 <element name="D4" library="studioalgorhythmics_parts" package="DO35-10" value="1N4148DO35-10" x="9.017" y="40.64" rot="R270"/>
 <element name="E1" library="SparkFun-Connectors" package="1X01_2MM" value="M01PTH_2MM" x="31.75" y="48.26"/>
 <element name="E2" library="SparkFun-Connectors" package="1X01_2MM" value="M01PTH_2MM" x="76.073" y="14.351"/>
-<element name="GND" library="SparkFun-Connectors" package="1X01_2MM" value="M01PTH_2MM" x="8.382" y="30.734" rot="R90"/>
+<element name="GND" library="SparkFun-Connectors" package="1X01_2MM" value="M01PTH_2MM" x="12.319" y="25.019" rot="R90"/>
 <element name="GND9V" library="SparkFun-Connectors" package="1X01_2MM" value="M01PTH_2MM" x="81.28" y="52.07"/>
 <element name="IC1" library="linear" package="DIL14" value="LM324N" x="41.91" y="50.8" rot="R90"/>
 <element name="IC2" library="linear" package="TO220H" value="7805T" x="86.36" y="43.18" rot="R270"/>
 <element name="LED1" library="studioalgorhythmics_parts" package="LED5MM" value="" x="24.13" y="69.85"/>
-<element name="MT" library="SparkFun-Connectors" package="1X01_2MM" value="M01PTH_2MM" x="12.827" y="30.48"/>
+<element name="MT" library="SparkFun-Connectors" package="1X01_2MM" value="M01PTH_2MM" x="12.319" y="30.607"/>
 <element name="PRESET1" library="studioalgorhythmics_parts" package="TRIMMER_3306F" value="" x="52.07" y="31.75" rot="R90"/>
 <element name="PRESET2" library="studioalgorhythmics_parts" package="TRIMMER_3306F" value="" x="67.31" y="26.67"/>
 <element name="PRESET3" library="studioalgorhythmics_parts" package="TRIMMER_3306F" value="" x="76.2" y="26.67"/>
@@ -1767,7 +1767,7 @@ design rules under a new name.</description>
 <signal name="N$5">
 <contactref element="IC1" pad="5"/>
 <contactref element="R4" pad="2"/>
-<wire x1="46.482" y1="31.623" x2="45.72" y2="27.94" width="1.27" layer="1"/>
+<wire x1="46.482" y1="31.623" x2="46.482" y2="25.4" width="1.27" layer="1"/>
 <wire x1="45.72" y1="53.34" x2="49.53" y2="53.34" width="1.27" layer="1"/>
 <wire x1="46.482" y1="31.623" x2="45.72" y2="53.34" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -1926,7 +1926,7 @@ design rules under a new name.</description>
 <wire x1="67.31" y1="29.17" x2="68.58" y2="36.322" width="0" layer="19" extent="1-1"/>
 <wire x1="38.1" y1="50.8" x2="68.58" y2="36.322" width="0" layer="19" extent="1-1"/>
 <wire x1="22.86" y1="60.96" x2="38.1" y2="50.8" width="0" layer="19" extent="1-1"/>
-<wire x1="8.382" y1="30.734" x2="9.017" y2="45.72" width="0" layer="19" extent="1-1"/>
+<wire x1="12.319" y1="25.019" x2="9.017" y2="45.72" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="R13" pad="2"/>
@@ -1953,7 +1953,7 @@ design rules under a new name.</description>
 <contactref element="D2" pad="C"/>
 <contactref element="MT" pad="1"/>
 <wire x1="12.319" y1="35.56" x2="15.24" y2="35.56" width="1.27" layer="1"/>
-<wire x1="12.319" y1="35.56" x2="12.827" y2="30.48" width="1.27" layer="1"/>
+<wire x1="12.319" y1="35.56" x2="12.319" y2="30.607" width="1.27" layer="1"/>
 <wire x1="12.319" y1="35.56" x2="9.017" y2="35.56" width="1.27" layer="1"/>
 <wire x1="15.494" y1="35.433" x2="15.24" y2="35.56" width="1.27" layer="1"/>
 </signal>
@@ -1972,7 +1972,7 @@ design rules under a new name.</description>
 <via x="49.53" y="53.34" extent="1-16" drill="1.3" diameter="2.54"/>
 </signal>
 <signal name="N$29">
-<via x="45.466" y="28.067" extent="1-16" drill="1.3" diameter="2.54"/>
+<via x="46.355" y="25.654" extent="1-16" drill="1.3" diameter="2.54"/>
 </signal>
 <signal name="N$30">
 <via x="27.94" y="48.26" extent="1-16" drill="1.3" diameter="2.54"/>
